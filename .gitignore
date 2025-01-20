@@ -1,2 +1,4 @@
 data/
 blip/test_im_images
+pixtral/data
+.env
