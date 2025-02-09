@@ -9,7 +9,7 @@ Our data is collected from the following sources:
 ```
 conda create --name ecdna
 conda activate ecdna
-pip install pillow gradio transformers os
+pip install pillow gradio transformers os zipfile
 pip install --upgrade opencv-python
 ```
 
