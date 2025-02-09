@@ -4,3 +4,4 @@ pixtral/data
 .env
 blip/test_im_images
 blip/train_im_images
+config.yaml
