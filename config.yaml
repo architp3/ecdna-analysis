@@ -1,0 +1,10 @@
+qwen:
+  zipfile_path: 'C:\\Users\\archi\\ecdna-analysis\\data\\ecSeg_dataset.zip'
+  test_folder_name: 'test_im/'
+  test_extract_folder: 'test_im_images'
+  train_folder_name: 'train_im/'
+  train_extract_folder: 'train_im_images'
+
+pixtral:
+
+minicpm:

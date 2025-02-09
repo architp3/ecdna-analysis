@@ -14,6 +14,15 @@ import cv2
 zipfile_path = os.path.expanduser("~") + '\\ecdna-analysis\\data\\ecSeg_dataset.zip'
 
 def extract_zip_path(zip_file_path, folder_name, extract_folder):
+        """
+            This function extracts certain folders from the ecSeg zipfile.
+            
+            Input:
+                zip_file_path: Path to zipfile containing all the data
+                folder_name: Name of the folder that you want to extract from ecSeg.
+                extract_folder: file to save all the extracted images
+            
+        """
         # Folder inside the ZIP file that contains the images
         
 
