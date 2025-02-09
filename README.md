@@ -28,7 +28,7 @@ This will be the file containing all the fields required for model inputs.
 
 #### Qwen2-VL Parameters
 `zipfile_path`: path to folder containing the ecSeg_dataset downloaded data.<br />
-`test_folder_name`: name of test folder in the ecSeg data folder (test_im).<br />
+`test_folder_name`: name of test folder in the ecSeg data folder (stored as `test_im`).<br />
 `test_extract_folder`: New path containing the extracted train images.<br />
-`train_folder_name`: name of train folder in the ecSeg data folder (train_im).<br />
+`train_folder_name`: name of train folder in the ecSeg data folder (stored as `train_im`).<br />
 `train_extract_folder`: New path containing the extracted train images.<br />
