@@ -23,11 +23,12 @@ For Pixtral Large Model, install the following additional packages:
 pip install mistralai
 ```
 
-### Config file
+### Configuration File (config.yaml)
+This will be the file containing all the fields required for model inputs.
 
 #### Qwen2-VL Parameters
-`zipfile_path`: path to folder containing the ecSeg_dataset downloaded data.
-`test_folder_name`: name of test folder in the ecSeg data folder (test_im).
-`test_extract_folder`: New path containing the extracted train images.
-`train_folder_name`: name of train folder in the ecSeg data folder (train_im).
-`train_extract_folder`: New path containing the extracted train images.
+`zipfile_path`: path to folder containing the ecSeg_dataset downloaded data.<br />
+`test_folder_name`: name of test folder in the ecSeg data folder (test_im).<br />
+`test_extract_folder`: New path containing the extracted train images.<br />
+`train_folder_name`: name of train folder in the ecSeg data folder (train_im).<br />
+`train_extract_folder`: New path containing the extracted train images.<br />
