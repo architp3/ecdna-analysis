@@ -1,6 +1,4 @@
 from PIL import Image
-from transformers import Qwen2VLForConditionalGeneration, AutoTokenizer, AutoProcessor, BlipProcessor, BlipForConditionalGeneration, pipeline
-from qwen_vl_utils import process_vision_info
 import gradio as gr
 import zipfile
 import os

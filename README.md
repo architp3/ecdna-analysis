@@ -42,17 +42,23 @@ ecSeg_dataset
 ```
 
 ### Configuration File (config.yaml)
-This will be the file containing all the fields required and optional fields for model inputs.
+This will be the file containing all the fields required and optional fields for model inputs. To generate this file, run the following command: </br>
+
+```
+copy config_copy.yaml config.yaml
+```
+
 
 #### Qwen2-VL Parameters
 
-The following fields are provided for users for do not have enough disk space and can extract data directly from the zip file:
+The following field is provided for users who do not have enough disk space and would like to download certain files from the entire dataset:
 
-`zipfile_path`: path to folder containing the ecSeg_dataset downloaded data.<br />
-`test_folder_name`: name of test folder in the ecSeg data folder (stored as `test_im`).<br />
+`zipfile_path`: path to folder containing the ecSeg_dataset downloaded data.</br>
 `test_extract_folder`: New path containing the extracted train images.<br />
-`train_folder_name`: name of train folder in the ecSeg data folder (stored as `train_im`).<br />
 `train_extract_folder`: New path containing the extracted train images.<br />
-`sampled`
 
-After these fields have been populated, run `python setup.py` in order to load data into the repository.
+The following fields are required:</br>
+
+`test_folder_name`: name of test folder in the ecSeg data folder (stored as `test_im`).<br />
+`train_folder_name`: name of train folder in the ecSeg data folder (stored as `train_im`).<br />
+`sampled`: File to store randomly sampled images. <br/>
