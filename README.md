@@ -25,6 +25,10 @@ pip install mistralai
 
 For MiniCPM-V2, no additional packages are needed
 
+### Dataset
+Dataset used for analysis can be found <a href='https://data.mendeley.com/datasets/m7n3zvg539/4'> here <\a>
+
+
 ### Configuration File (config.yaml)
 This will be the file containing all the fields required for model inputs.
 
