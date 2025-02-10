@@ -71,4 +71,4 @@ Once the data has been populated in the repository, use the following terminal c
 ```
 pythons setup.py --extract-zip y
 ```
-Use 'y' if you want to conduct zip extraction and n otherwise.
+Use 'y' if you want to conduct zip extraction and 'n' otherwise.
