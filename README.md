@@ -62,3 +62,4 @@ The following fields are required:</br>
 `test_folder_name`: name of test folder in the ecSeg data folder (stored as `test_im`).<br />
 `train_folder_name`: name of train folder in the ecSeg data folder (stored as `train_im`).<br />
 `sampled`: File to store randomly sampled images. <br/>
+`sample_size`: Sample size for random sampling. Set to 200 by default.<br/>

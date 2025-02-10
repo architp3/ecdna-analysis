@@ -2,3 +2,5 @@ data/
 pixtral/data
 .env
 config.yaml
+test_im_images/
+train_im_images/
