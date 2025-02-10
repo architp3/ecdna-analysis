@@ -23,6 +23,8 @@ For Pixtral Large Model, install the following additional packages:
 pip install mistralai
 ```
 
+For MiniCPM-V2, no additional packages are needed
+
 ### Configuration File (config.yaml)
 This will be the file containing all the fields required for model inputs.
 

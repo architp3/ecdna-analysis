@@ -11,6 +11,8 @@ import pandas as pd
 import cv2
 
 # Zipfile path containing data
+zipfile_path = os.path.expanduser("~") + '\\ecdna-analysis\\data\\ecSeg_dataset.zip'
+
 def extract_zip_path(zip_file_path, folder_name, extract_folder):
         """
             This function extracts certain folders from the ecSeg zipfile.
@@ -18,9 +20,11 @@ def extract_zip_path(zip_file_path, folder_name, extract_folder):
             Input:
                 zip_file_path: Path to zipfile containing all the data
                 folder_name: Name of the folder that you want to extract from ecSeg.
-                extract_folder: file to save all the extracted images 
+                extract_folder: file to save all the extracted images
+            
         """
         # Folder inside the ZIP file that contains the images
+        
 
         # Open the ZIP file
         with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
@@ -40,23 +44,13 @@ def extract_zip_path(zip_file_path, folder_name, extract_folder):
             
         zip_ref.close()
 
-def generate_random_sample(input_folder, output_folder, sample_size=200):
-    """
-        This function uses provided data and generates a random sample
-        used for testing purposes.
-
-        Inputs:
-            input_folder: folder containing data
-            output_folder: folder to write randomly sampled data
-            sample_size: random sample size. Set to 200 by default
-    """
+def generate_random_sample(input_folder, output_folder):
     if os.path.exists(output_folder):
         shutil.rmtree(output_folder)
     os.makedirs(output_folder)
     
     images = [f for f in os.listdir(input_folder)]
-    print(len(images))
-    sampled = random.sample(images, sample_size)
+    sampled = random.sample(images, 200)
 
     for image in sampled:
         shutil.copy(os.path.join(input_folder, image), os.path.join(output_folder, image))
@@ -64,17 +58,8 @@ def generate_random_sample(input_folder, output_folder, sample_size=200):
     return pd.DataFrame(sampled)
 
 def read_blue_channel(img_path):
-    """
-        This function filters the blue channel from images
-        and generates a greyscale image highlighting the
-        blue channel information.
-
-        Input:
-            img_path: path of image to be converted
-        Output:
-            Greyscaled image containing blue channel
-    """
     image = cv2.imread(img_path)
     blue_channel = image[:, :, 0]
     blue_rgb = np.stack([blue_channel, blue_channel, blue_channel], axis=-1)
+
     return Image.fromarray(blue_rgb)

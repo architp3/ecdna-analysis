@@ -1,0 +1,601 @@
+Context,Question,Image_Path,Output
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1000.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1004.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,102.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1025.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1043.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1073.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1086.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,110.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1102.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1109.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1114.tif,34
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1134.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1135.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1146.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1154.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1159.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1173.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,118.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1193.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1197.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1198.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1233.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1248.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1294.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1336.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1346.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,137.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1374.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1390.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,14.tif,"I'm sorry, but I cannot see the image you are referring to. Please provide a visual or describe what is in it so that I can assist accurately with your request regarding nuclei count."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1408.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1409.tif,38
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1454.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1485.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1489.tif,Many
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1490.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1492.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1513.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1532.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1534.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1562.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1570.tif,There are too many nuclei to count accurately.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1574.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1588.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1592.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1595.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1597.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1610.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1626.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1629.tif,There are 10 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1631.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1638.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1661.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1665.tif,"I'm sorry, but I am unable to provide an answer without seeing the image."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,170.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1722.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1724.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1726.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,173.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1731.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1733.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1744.tif,There are 3 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1751.tif,The answer is 0.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1765.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1766.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1774.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1775.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1791.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1809.tif,"I'm sorry, but I cannot provide an accurate count of nuclei in the image as it does not show a clear or identifiable nucleus."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1814.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1822.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1826.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1846.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1848.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,186.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1872.tif,There are 12 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1877.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1879.tif,The answer is 0.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1909.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,192.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1930.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1933.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1934.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1955.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1974.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1986.tif,There are 3 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1987.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2010.tif,Many
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2022.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2033.tif,"There are too many nuclei to count, but they appear in multiple scattered clusters."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2034.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2042.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2072.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,211.tif,40
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2119.tif,"I'm sorry, but I cannot provide an accurate answer without a visual image to analyze. Please post the necessary content for me to proceed with my task and fulfill your request successfully!"
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2127.tif,"I'm sorry, but I cannot provide a numerical answer as the image is too dark and blurry to determine any specific details."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2135.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2139.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2157.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2165.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2215.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2232.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2246.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2251.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2285.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2295.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,232.tif,7
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2329.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2334.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2337.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2340.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,247.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,250.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,253.tif,"I'm sorry, but I cannot provide a numerical answer without seeing the image."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,268.tif,"I'm sorry, but I cannot provide a numerical answer as there are no nuclei present in the image."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,29.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,315.tif,7
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,325.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,350.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,354.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,372.tif,25
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,394.tif,7
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,413.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,414.tif,7
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,429.tif,Many
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,430.tif,There are 8 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,435.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,438.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,449.tif,30
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,454.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,469.tif,There are 27 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,474.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,50.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,504.tif,There are 16 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,536.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,54.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,545.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,546.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,552.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,553.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,568.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,573.tif,"I'm sorry, but I cannot provide a numerical answer as the image only contains text."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,577.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,589.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,590.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,596.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,6.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,605.tif,The number of nuclei in the image is approximately 570.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,609.tif,There are 25 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,618.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,626.tif,9
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,627.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,638.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,649.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,650.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,661.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,662.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,683.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,693.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,694.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,695.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,697.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,699.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,703.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,707.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,713.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,715.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,717.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,719.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,72.tif,"I'm sorry, but I cannot count objects in an image as it requires visual perception which is beyond my capabilities."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,729.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,737.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,746.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,747.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,762.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,769.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,770.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,783.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,785.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,790.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,791.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,793.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,8.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,800.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,814.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,829.tif,Many
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,831.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,839.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,853.tif,There are 9 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,863.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,891.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,902.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,904.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,91.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,911.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,950.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,953.tif,7
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,954.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,958.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,993.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1006.tif,0
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1009.tif,Many
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1030.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1033.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1059.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,107.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1070.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,109.tif,20
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1090.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1093.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1094.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1102.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,111.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1111.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1125.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1133.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1142.tif,"I'm sorry, but I cannot see any nuclei in the image."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1158.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1180.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1181.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1190.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1192.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1253.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,130.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1301.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1304.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1308.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,131.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1330.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1336.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1369.tif,Many
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1376.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1393.tif,37
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,14.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1410.tif,38
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1413.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1414.tif,Many
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1460.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1469.tif,35
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1490.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1494.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,152.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1532.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,154.tif,"I'm sorry, but I am unable to count objects in an image as it goes beyond my capabilities."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,155.tif,7
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1562.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1573.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1588.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1594.tif,"I'm sorry, but I can only provide information based on the content of an image. As such, it is not possible for me to count nuclei in this particular image without seeing its contents first."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,169.tif,There are 20 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1714.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1729.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1736.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1744.tif,0
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1750.tif,20
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1759.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1764.tif,The answer is 0.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1768.tif,The number of nuclei in the image is 2.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1769.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1793.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1797.tif,7
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,18.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1809.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1813.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1822.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1830.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1831.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1833.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1834.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1836.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1841.tif,There is 1 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1845.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1872.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1889.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1915.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1927.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1929.tif,"I'm sorry, but I cannot provide a numerical answer as the image contains blurry and out of focus nuclei."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1930.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1934.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,195.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1970.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1988.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1992.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2006.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2009.tif,Many
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2033.tif,There are 13 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2047.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2069.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,207.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2073.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,208.tif,There are 10 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2103.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2110.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2171.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2178.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2194.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2210.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2226.tif,"I'm sorry, but I can only analyze the text you provide. Please specify what part of a scientific paper or book should be analyzed so that proper guidance and information could help me to do this task correctly."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2231.tif,"I'm sorry, but I am unable to view images."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2254.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2261.tif,There are 3 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2289.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2290.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2293.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2309.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2310.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2314.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2317.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2328.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2339.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2341.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,245.tif,"I'm sorry, but I cannot provide an answer as there are no nuclei visible in the image."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,247.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,255.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,266.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,268.tif,25
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,29.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,314.tif,Many
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,326.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,329.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,330.tif,There are 13 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,333.tif,Many
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,370.tif,20
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,371.tif,7
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,375.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,398.tif,15
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,428.tif,The answer is 0.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,432.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,449.tif,There are 12 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,452.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,470.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,477.tif,20
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,485.tif,20
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,49.tif,There are 7 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,490.tif,30
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,498.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,537.tif,There are 6 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,546.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,550.tif,20
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,568.tif,The answer is 25.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,570.tif,There are 10 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,573.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,591.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,593.tif,The answer is 70.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,595.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,598.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,6.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,623.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,630.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,636.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,637.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,647.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,649.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,654.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,660.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,667.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,675.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,678.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,68.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,695.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,700.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,707.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,712.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,716.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,718.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,724.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,729.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,730.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,744.tif,9
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,745.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,747.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,754.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,764.tif,7
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,773.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,774.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,777.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,78.tif,There are 5 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,780.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,793.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,795.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,800.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,802.tif,There are 5 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,803.tif,There are 3 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,812.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,819.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,823.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,824.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,828.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,839.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,854.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,858.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,86.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,873.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,890.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,906.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,91.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,952.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,974.tif,There are 10 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,978.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,985.tif,20
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1006.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1009.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1030.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1033.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1059.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,107.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1070.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,109.tif,"I'm sorry, but I am unable to count objects in an image as it goes beyond my capabilities. However, if you provide me with a description of the object or context associated with ""nuclear"", maybe then we could work together on identifying such things from images!"
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1090.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1093.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1094.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1102.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,111.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1111.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1125.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1133.tif,7
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1142.tif,The answer is 1.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1158.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1180.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1181.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1190.tif,9
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1192.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1253.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,130.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1301.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1304.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1308.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,131.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1330.tif,Many
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1336.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1369.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1376.tif,"I'm sorry, but I cannot provide a numerical answer as the image does not contain any nuclei."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1393.tif,Many
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,14.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1410.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1413.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1414.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1460.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1469.tif,Many
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1490.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1494.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,152.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1532.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,154.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,155.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1562.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1573.tif,7
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1588.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1594.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,169.tif,There are 25 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1714.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1729.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1736.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1744.tif,"I'm sorry, but I cannot provide an answer to that question as there are no nuclei visible in the image."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1750.tif,There are 10 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1759.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1764.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1768.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1769.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1793.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1797.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,18.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1809.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1813.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1822.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1830.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1831.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1833.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1834.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1836.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1841.tif,There are 3 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1845.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1872.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1889.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1915.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1927.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1929.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1930.tif,7
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1934.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,195.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1970.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1988.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,1992.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2006.tif,The answer is 0.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2009.tif,Many
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2033.tif,"The exact count of nuclei in the image cannot be determined without a clear view. However, one can see numerous particles dispersed across various areas within their region on the screen that could potentially correspond to multiple types or clusters of atoms present inside an atomic nucleus"
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2047.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2069.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,207.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2073.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,208.tif,The count of nuclei in the image is 8.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2103.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2110.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2171.tif,The answer is 1.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2178.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2194.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2210.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2226.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2231.tif,"I'm sorry, but I cannot provide a numerical answer as the image does not contain any nuclei."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2254.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2261.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2289.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2290.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2293.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2309.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2310.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2314.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2317.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2328.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2339.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,2341.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,245.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,247.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,255.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,266.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,268.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,29.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,314.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,326.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,329.tif,Many
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,330.tif,There are 21 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,333.tif,The answer is 128.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,370.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,371.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,375.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,398.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,428.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,432.tif,7
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,449.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,452.tif,"I'm sorry, but I am unable to provide a numerical answer as the image description does not include any nuclei."
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,470.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,477.tif,20
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,485.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,49.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,490.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,498.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,537.tif,There are 20 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,546.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,550.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,568.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,570.tif,There are 13 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,573.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,591.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,593.tif,20
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,595.tif,7
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,598.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,6.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,623.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,630.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,636.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,637.tif,7
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,647.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,649.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,654.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,660.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,667.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,675.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,678.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,68.tif,There are 3 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,695.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,700.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,707.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,712.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,716.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,718.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,724.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,729.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,730.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,744.tif,7
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,745.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,747.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,754.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,764.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,773.tif,9
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,774.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,777.tif,2
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,78.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,780.tif,8
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,793.tif,20
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,795.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,800.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,802.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,803.tif,There are 3 nuclei in the image.
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,812.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,819.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,823.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,824.tif,5
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,828.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,839.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,854.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,858.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,86.tif,3
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,873.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,890.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,906.tif,6
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,91.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,952.tif,1
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,974.tif,10
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,978.tif,4
+You are a pathologist examing cell imagery,Give the count of nuclei in the image. You must return a numerical answer.,985.tif,9
