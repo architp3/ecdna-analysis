@@ -51,15 +51,24 @@ copy config_copy.yaml config.yaml
 
 #### Qwen2-VL Parameters
 
-The following field is provided for users who do not have enough disk space and would like to download certain files from the entire dataset:
+The following field is provided for users who do not have enough disk space and would like to download certain files from the entire dataset: </br>
 
 `zipfile_path`: path to folder containing the ecSeg_dataset downloaded data.</br>
 `test_extract_folder`: New path containing the extracted train images.<br />
 `train_extract_folder`: New path containing the extracted train images.<br />
 
-The following fields are required:</br>
-
+The fields have been filled out for you in the `config_copy.yaml` file:</br>
 `test_folder_name`: name of test folder in the ecSeg data folder (stored as `test_im`).<br />
 `train_folder_name`: name of train folder in the ecSeg data folder (stored as `train_im`).<br />
+
+The following fields are required:</br>
+
 `sampled`: File to store randomly sampled images. <br/>
 `sample_size`: Sample size for random sampling. Set to 200 by default.<br/>
+
+Once the data has been populated in the repository, use the following terminal command to setup random sampling and zipfile extraction if not already done:
+
+```
+pythons setup.py --extract-zip y
+```
+Use 'y' if you want to conduct zip extraction and n otherwise.
