@@ -1,0 +1,6 @@
+Context,Question,Image_Path,Output,Actual
+You are a pathologist examing cell imagery.,Identify the count of ecDNA. Return a numerical answer only,2244.png,1,0
+You are a pathologist examing cell imagery.,Identify the count of ecDNA. Return a numerical answer only,949.png,10,2
+You are a pathologist examing cell imagery.,Identify the count of ecDNA. Return a numerical answer only,1730.png,17,16
+You are a pathologist examing cell imagery.,Identify the count of ecDNA. Return a numerical answer only,2153.png,8,9
+You are a pathologist examing cell imagery.,Identify the count of ecDNA. Return a numerical answer only,998.png,4,0
