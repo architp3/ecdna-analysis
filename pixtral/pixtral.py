@@ -10,6 +10,7 @@ import os
 import requests
 
 from mistralai import Mistral
+import tkinter as tk
 
 # %%
 # Helper function
@@ -103,3 +104,39 @@ def prompt_model(image_path, txt_prompt):
 
     # Print the content of the response
     print(chat_response.choices[0].message.content)
+    
+def generate_labels(qwen_out, pixtral_out, cpm_out):
+    
+    def load_text(file_path, tw):
+        with open(file_path, 'r') as file:
+            data = file.read()
+            tw.insert(tk.END, data)
+
+    root = tk.Tk()
+    root.title("LLM Outputs")
+
+    blip_label = tk.Label(root, text='Qwen Output')
+    blip_label.pack()
+
+    text_widget_qwen = tk.Text(root, height=10, width=50)
+    text_widget_qwen.pack()  
+
+    w = tk.Label(root, text='Pixtral Large Output')
+    w.pack()
+
+    text_widget_pix = tk.Text(root, height=10, width=50)
+    text_widget_pix.pack()
+    
+    cpm_label = tk.Label(root, text='MiniCPM Output')
+    cpm_label.pack()
+
+    text_widget_cpm = tk.Text(root, height=10, width=50)
+    text_widget_cpm.pack()
+
+
+    load_text(pixtral_out, text_widget_qwen)
+    load_text(qwen_out, text_widget_pix)
+    load_text(cpm_out, text_widget_cpm)
+
+
+    root.mainloop()
