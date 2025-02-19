@@ -1,4 +1,4 @@
-,image,num_nuclei,num_chromosomes,num_ecDNA
+image,num_nuclei,num_chromosomes,num_ecDNA
 0.tif,2,1,1
 1.tif,4,1,3
 10.tif,1,6,2
