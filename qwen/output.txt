@@ -1,1 +1,1 @@
-{"nuclei": 1, "chromosomes": 1, "ecDNA": 0}
+{"nuclei": 4, "chromosomes": 8, "ecDNA": 0}
