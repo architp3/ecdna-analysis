@@ -73,6 +73,38 @@ def generate_random_sample(input_folder, output_folder, sample_size=200):
         
     return pd.DataFrame(sampled)
 
+def read_red_channel(img_path):
+    """
+        This function filters the blue channel from images
+        and generates a greyscale image highlighting the
+        blue channel information.
+
+        Input:
+            img_path: path of image to be converted
+        Output:
+            Greyscaled image containing blue channel
+    """
+    image = cv2.imread(img_path)
+    red_channel = image[:, :, 2]
+    red_rgb = np.stack([red_channel, red_channel, red_channel], axis=-1)
+    return Image.fromarray(red_rgb)
+
+def read_green_channel(img_path):
+    """
+        This function filters the blue channel from images
+        and generates a greyscale image highlighting the
+        blue channel information.
+
+        Input:
+            img_path: path of image to be converted
+        Output:
+            Greyscaled image containing blue channel
+    """
+    image = cv2.imread(img_path)
+    green_channel = image[:, :, 1]
+    green_rgb = np.stack([green_channel, green_channel, green_channel], axis=-1)
+    return Image.fromarray(green_rgb)
+
 def read_blue_channel(img_path):
     """
         This function filters the blue channel from images
