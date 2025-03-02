@@ -32,7 +32,7 @@ def extract_zip_path(zip_file_path, folder_name, extract_folder):
         """
         # Folder inside the ZIP file that contains the images
 
-        # Open the ZIP file
+        # Open the ZIP filekmklm
         with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
             all_files = zip_ref.namelist()
             
@@ -120,3 +120,8 @@ def read_blue_channel(img_path):
     blue_channel = image[:, :, 0]
     blue_rgb = np.stack([blue_channel, blue_channel, blue_channel], axis=-1)
     return Image.fromarray(blue_rgb)
+
+def red_green_channel(img_path):
+    image = cv2.imread(img_path)
+    image[:, :, 0] = 0
+    return Image.fromarray(image)
