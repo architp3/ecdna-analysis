@@ -105,7 +105,7 @@ def prompt_model(image_path, txt_prompt):
     # Print the content of the response
     print(chat_response.choices[0].message.content)
     
-def generate_labels(qwen_out, pixtral_out, cpm_out):
+def generate_labels(qwen_out, pixtral_out, cpm_out, img):
     
     def load_text(file_path, tw):
         with open(file_path, 'r') as file:
