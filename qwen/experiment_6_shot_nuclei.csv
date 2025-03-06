@@ -1,0 +1,3516 @@
+,image,num_nuclei,num_chromosomes,num_ecDNA,6_shot_nuclei
+0,0.tif,2,1,1,"{
+""answer"": ""3""
+}"
+1,1.tif,4,1,3,"```json
+[3]
+```"
+2,10.tif,1,6,2,"{""value"": 14}"
+3,1000.tif,3,4,2,"{
+""chromosomes"": ""14""
+}"
+4,1001.tif,1,0,0,"{
+  ""value"": 22,
+  ""message"": """"
+}"
+5,1004.tif,1,2,3,"{
+    ""chromosomes"": {
+        ""count"": 2
+    }
+}"
+6,1006.tif,0,2,0,"{
+""answer"": 14,
+""reasoning"": ""The chromosome count can be determined by counting the number of X-shaped structures present in the image.""
+}"
+7,1008.tif,0,7,2,"{
+""chromosomes"": ""14""
+}"
+8,1009.tif,0,21,6,"{
+""answer"": ""4""
+}"
+9,1013.tif,0,17,3,"{
+""answer"": ""7""
+}"
+10,102.tif,1,0,13,"{
+""answer"": ""3""
+}"
+11,1025.tif,0,8,1,"{
+""chromosomes"": ""7""
+}"
+12,1026.tif,0,9,2,"{
+  ""answer"": 7
+}"
+13,1028.tif,0,3,1,"{ ""chromosomes"": 14 }"
+14,1029.tif,0,11,2,"```json
+{
+   ""chromosomes"": 22,
+   ""ecDNA"": 0,
+   ""nuclei"": 0
+}
+```"
+15,103.tif,1,0,6,"{""answer"":14}"
+16,1030.tif,0,9,2,"{
+  ""answer"": 1,
+  ""reasoning"": ""The image contains only one chromosome.""
+}"
+17,1031.tif,3,7,3,"{
+""answer"": ""4""
+}"
+18,1033.tif,0,6,2,"{""answer"": ""1""}"
+19,1034.tif,0,15,4,"{""number_of_chromosomes"": 7}"
+20,1042.tif,2,0,0,"```json
+{
+""chromosomes"": ""7""
+}
+```"
+21,1043.tif,1,0,0,"{
+    ""count"": 8
+}"
+22,1045.tif,0,4,0,"{
+""chrm"": ""3""
+}"
+23,1047.tif,2,0,0,"{
+""number"": 14
+}"
+24,1049.tif,0,25,4,"{""value"": ""1""}"
+25,1050.tif,0,16,0,"{
+  ""answer"": 7,
+  ""reasoning"": ""The image contains 7 chromosomes, which can be seen as the X-shaped structure of chromosomes.""
+}"
+26,1051.tif,1,0,0,"{
+""answer"": ""7""
+}"
+27,1053.tif,1,7,0,"{
+  ""answer"": 7,
+  ""reasoning"": ""The image contains four connected components, each representing a chromosome. Since there are four such components, there must be 4 chromosomes.""
+}"
+28,1054.tif,1,13,2,"{""answer"": ""7""}"
+29,1055.tif,2,0,0,[14]
+30,1057.tif,2,0,0,"[{""value"": ""3""}]"
+31,1058.tif,2,0,0,"{""value"": 7}"
+32,1059.tif,1,0,0,"{
+""count"": 7,
+""result"": true
+}"
+33,1069.tif,0,9,5,"{
+  ""chromosomes"": 7
+}"
+34,107.tif,0,4,18,"```json
+{
+  ""answer"": 8
+}
+```"
+35,1070.tif,1,4,4,"{
+  ""answer"": 3
+}"
+36,1073.tif,0,17,1,"{
+""answer"": ""22""
+}"
+37,1074.tif,5,21,0,"{
+""answer"": ""7""
+}"
+38,108.tif,0,2,47,"{""answer"": ""2""}"
+39,1086.tif,0,2,0,"{
+""answer"": ""7""
+}"
+40,1088.tif,1,1,0,"{
+""answer"": ""14""
+}"
+41,1089.tif,0,16,3,"{
+""answer"": ""7""
+}"
+42,109.tif,0,10,62,"{
+   ""chromosomes"": {
+      ""count"": 7,
+      ""description"": ""This indicates that there are seven chromosomes present in the image.""
+   }
+}"
+43,1090.tif,0,25,7,"```json
+[14]
+```"
+44,1092.tif,1,1,0,"{
+   ""chromosomes"": 4,
+   ""description"": ""The image contains 4 chromosomes.""
+}"
+45,1093.tif,0,13,14,"{
+  ""count"": 22
+}"
+46,1094.tif,0,11,17,"{""chro"": ""2""}"
+47,11.tif,2,0,0,"```json
+{
+  ""value"": 22
+}
+```"
+48,110.tif,0,8,57,"{""value"": ""14""}"
+49,1100.tif,1,0,0,"{
+  ""chromosomes"": 7,
+  ""description"": ""The image contains 7 chromosomes.""
+}"
+50,1101.tif,3,0,0,"{
+""answer"": ""7""
+}"
+51,1102.tif,2,0,0,"{
+""answer"": ""22""
+}"
+52,1103.tif,2,0,0,"{
+  ""chromosomes"": 3,
+  ""message"": """"
+}"
+53,1105.tif,1,0,0,"{
+  ""answer"": 7
+}"
+54,1106.tif,2,0,2,"{
+   ""chromosomes"": 7
+}"
+55,1109.tif,0,12,3,"{
+""chrm"": ""14""
+}"
+56,111.tif,0,2,26,"{""value"": ""3""}"
+57,1110.tif,1,15,7,"{ ""chromosomes"": 7 }"
+58,1111.tif,0,2,4,"{
+    ""count"": 3
+}"
+59,1113.tif,0,8,10,"{
+""number"": 7
+}"
+60,1114.tif,0,25,15,"{
+""chro"": ""14""
+}"
+61,1115.tif,0,6,11,"{
+""answer"": ""4""
+}"
+62,1116.tif,1,0,0,"{""answer"": ""14""}"
+63,1117.tif,1,0,0,"{
+  ""answer"": 3,
+  ""explanation"": ""The image contains 3 chromosomes.""
+}"
+64,112.tif,0,19,82,"{
+  ""number"": 22
+}"
+65,1125.tif,2,0,0,"{""answer"": ""7""}"
+66,1129.tif,2,7,1,"{""number"": 14}"
+67,113.tif,0,21,92,"{
+""chromosome_count"": ""14""
+}"
+68,1130.tif,1,16,3,"{
+""chromosomes"": ""3""
+}"
+69,1131.tif,1,1,0,"{
+  ""value"": 22
+}"
+70,1133.tif,0,11,0,"{
+""answer"": ""1""
+}"
+71,1134.tif,0,30,8,"{
+""answer"": ""7""
+}"
+72,1135.tif,0,5,0,"{ ""value"": 7 }"
+73,1136.tif,1,0,0,"{""chromosomes"": ""22""}"
+74,114.tif,0,15,68,"{ ""number"": 7 }"
+75,1142.tif,1,0,0,[14]
+76,1143.tif,2,0,0,"{
+    ""chromosome_count"": 22,
+    ""image_type"": ""cell_image""
+}"
+77,1146.tif,0,0,0,"{
+""answer"": 14,
+""reasoning"": ""The image contains four different sized chromosomes, which suggests that it contains multiple sets of chromosomes. The largest set of chromosomes (14) is likely the most prominent in the image.""
+}"
+78,1147.tif,1,0,0,"{
+    ""count"": 22
+}"
+79,1149.tif,0,1,0,"{
+  ""answer"": {
+    ""chromosome_count"": 7,
+    ""description"": ""The chromosome count is 7.""
+  }
+}"
+80,115.tif,0,5,23,"{
+  ""chromosomes"": 7
+}"
+81,1150.tif,0,47,3,"{
+""answer"": ""14""
+}"
+82,1151.tif,0,2,3,"[{""chromosomes"": 3}]"
+83,1153.tif,1,0,0,"{
+ ""chromosomes"": 14,
+ ""message"": ""The image contains 14 chromosomes.""
+}"
+84,1154.tif,1,13,3,"{
+  ""chromosomes"": 7
+}"
+85,1158.tif,1,0,2,"{
+""chromosome_count"": ""14""
+}"
+86,1159.tif,1,0,0,"{
+""count"": 14
+}"
+87,116.tif,0,6,32,"{
+  ""value"": ""3""
+}"
+88,1161.tif,1,0,1,"{
+""answer"": ""7""
+}"
+89,1162.tif,1,0,0,"{
+""chromosomes"": 14
+}"
+90,1169.tif,0,11,22,"{
+""answer"": ""4""
+}"
+91,117.tif,0,8,33,"{
+  ""count"": 19
+}"
+92,1170.tif,0,13,20,"```json
+{
+  ""chromosomes"": 14
+}
+```"
+93,1173.tif,0,14,15,"{
+""chromosomes"": 3,
+""image_id"": ""1"",
+""cell_type"": ""Metaphase"",
+""metaphase_status"": ""Normal""
+}"
+94,1174.tif,0,19,27,"{
+""chromosomes"": 7
+}"
+95,1179.tif,1,0,0,"{
+""number"": ""3""
+}"
+96,118.tif,0,3,72,"{
+  ""chromosomes"": 7
+}"
+97,1180.tif,1,0,0,"{
+""number"": 1
+}"
+98,1181.tif,1,0,0,[7]
+99,1188.tif,3,0,12,"{
+""answer"": ""7""
+}"
+100,1189.tif,1,3,10,"{
+""chromosomes"": 14,
+""image_type"": ""cell_image"",
+""image_url"": ""https://www.example.com/chromosome-image-14-chromosomes""
+}"
+101,119.tif,15,0,2,"{
+""chromosomes"": ""14""
+}"
+102,1190.tif,0,9,12,"{
+  ""chromosomes"": 8
+}"
+103,1192.tif,1,0,8,"{
+""chromosomes"": 23
+}"
+104,1193.tif,1,8,37,[1]
+105,1194.tif,0,20,35,"{""chromosome_count"": 7}"
+106,1197.tif,1,0,24,"[{""value"": 7}]"
+107,1198.tif,1,1,26,"{""value"": 3}"
+108,12.tif,1,2,3,"{
+""count"": ""22""
+}"
+109,1209.tif,0,8,0,"{""chromosomes"": 7}"
+110,1210.tif,0,28,4,"{
+""chromosomes"": ""4""
+}"
+111,1213.tif,0,8,1,"{
+  ""chromosomes"": 22
+}"
+112,1214.tif,0,36,9,"[{""value"": ""14""}]"
+113,1225.tif,0,2,0,"{
+  ""count"": 7
+}"
+114,1226.tif,1,4,2,"{
+  ""answer"": ""7""
+}"
+115,1227.tif,0,1,0,"{
+""count"": 14
+}"
+116,1228.tif,0,2,0,"{
+""answer"": ""7""
+}"
+117,1229.tif,0,27,2,"{
+""chromosomes"": 7
+}"
+118,1230.tif,1,15,1,"{
+   ""count"": 7,
+   ""description"": ""The image contains 7 chromosomes.""
+}"
+119,1233.tif,0,14,4,"{
+""answer"": ""7""
+}"
+120,1234.tif,0,19,4,"{
+""number"": ""8""
+}"
+121,1235.tif,1,0,0,"{""answer"": ""7""}"
+122,1239.tif,1,1,0,"{
+""answer"": ""10""
+}"
+123,1248.tif,0,3,0,"{
+  ""chromosomes"": 22
+}"
+124,1249.tif,0,22,8,"{
+  ""count"": 3
+}"
+125,1250.tif,1,8,3,"{
+""answer"": ""2""
+}"
+126,1253.tif,0,22,8,"{""chromosome_count"": 14}"
+127,1254.tif,0,7,5,"{""chrmn"": 14}"
+128,1261.tif,1,0,0,"```json
+{
+    ""answer"": 14
+}
+```"
+129,1262.tif,1,0,0,"{
+""answer"": 14,
+""confidence"": 100.0
+}"
+130,1266.tif,1,1,0,"{
+""number"": 22
+}"
+131,1267.tif,1,0,0,[7]
+132,1269.tif,0,24,11,[7]
+133,1270.tif,1,28,13,"{
+""answer"": ""14""
+}"
+134,1271.tif,1,0,0,"{
+  ""number"": 14
+}"
+135,1273.tif,0,17,15,"{
+  ""number"": 7
+}"
+136,1274.tif,0,27,6,"{""value"": ""3""}"
+137,1289.tif,0,16,12,"{
+""answer"": 7
+}"
+138,129.tif,0,14,20,"{
+  ""chromosomes"": {
+    ""value"": 3,
+    ""unit"": """"
+  }
+}"
+139,1290.tif,0,13,21,"{
+""answer"": ""7""
+}"
+140,1293.tif,0,22,13,"{ ""chromosomes"": 14 }"
+141,1294.tif,0,15,15,"[{""value"": ""4"", ""label"": ""The image contains 4 chromosomes.""}]"
+142,1297.tif,1,0,0,"{""answer"": ""7""}"
+143,13.tif,1,32,0,"```json
+{
+    ""chromosomes"": 7
+}
+```"
+144,130.tif,0,18,34,"{""count"": ""3""}"
+145,1300.tif,2,0,0,"{
+  ""answer"": 3,
+  ""confidence"": 98
+}"
+146,1301.tif,1,1,0,"{
+""answer"": ""3""
+}"
+147,1302.tif,1,0,1,"{
+""chromosomes"": ""22""
+}"
+148,1303.tif,1,0,1,"{
+""chromosomes"": ""7""
+}"
+149,1304.tif,3,0,1,"{
+""chiasmata"": ""3""
+}"
+150,1305.tif,1,4,23,"[{""value"": ""14""}]"
+151,1306.tif,1,0,6,"{
+""answer"": ""22""
+}"
+152,1308.tif,1,0,7,"{
+""chromosomes"": ""22""
+}"
+153,1309.tif,1,8,16,"{
+""number"": 3
+}"
+154,131.tif,0,5,17,"{""chromosomes"": ""14""}"
+155,1310.tif,0,11,20,"{
+""answer"": ""7""
+}"
+156,1313.tif,0,20,20,"```json
+[22]
+```"
+157,1314.tif,0,16,19,"{
+  ""chromosomes"": 7
+}"
+158,1320.tif,1,0,2,"{""value"": 14}"
+159,1325.tif,0,3,4,"{""chro"": ""22""}"
+160,1326.tif,1,1,2,"[{""chromosome"": ""X-shaped structure""}]"
+161,1327.tif,1,0,0,"{
+  ""chromosomes"": 18
+}"
+162,1328.tif,2,0,2,"{
+  ""number"": 14
+}"
+163,1329.tif,0,24,15,"{
+""answer"": ""3""
+}"
+164,133.tif,0,18,26,"{""chromosomes"": 14}"
+165,1330.tif,0,19,19,"{
+""answer"": ""19"",
+""reasoning"": ""The image contains 22 chromosomes, but since each chromosome consists of two sister chromatids, the total number of chromosomes is 22 x 2 = 44. However, the question asks for the number of chromosomes present in the image. Since only one cell image exists in the image, it must be that there are 22 chromosomes in the image.""
+}"
+166,1332.tif,4,0,2,"```json
+[7]
+```"
+167,1333.tif,6,19,15,"{
+""answer"": ""3""
+}"
+168,1334.tif,0,5,7,"[{""value"": 7}]"
+169,1336.tif,5,1,0,"{
+""chromosomes"": 4
+}"
+170,1337.tif,2,0,4,"{
+""answer"": ""14""
+}"
+171,134.tif,0,15,20,"[{""value"": 7}]"
+172,1341.tif,1,0,0,"{
+""answer"": ""1""
+}"
+173,1342.tif,1,0,0,"{
+""answer"": 3,
+""reason"": ""The image contains three chromosomes.""
+}"
+174,1345.tif,2,0,3,"{
+""answer"": ""14""
+}"
+175,1346.tif,1,0,0,"{
+""chromosomes"": 14
+}"
+176,1349.tif,0,24,20,"{
+""number"": 14
+}"
+177,135.tif,0,8,24,"{
+""answer"": ""14""
+}"
+178,1350.tif,0,17,33,"{
+  ""value"": 22
+}"
+179,1352.tif,6,0,5,"{
+""answer"": ""3""
+}"
+180,1353.tif,0,22,22,"{
+  ""count"": 18
+}"
+181,1354.tif,0,18,23,"[{""value"": ""3""}]"
+182,1369.tif,2,23,11,"{
+  ""answer"": 14
+}"
+183,137.tif,0,1,3,"```json
+{
+    ""answer"": ""7""
+}
+```"
+184,1370.tif,0,3,1,"{
+  ""count"": {
+    ""all"": 19,
+    ""X-shaped"": 8,
+    ""unrelated"": 11
+  }
+}"
+185,1373.tif,0,35,14,"{""chromosomes"": 14}"
+186,1374.tif,0,16,6,"{
+""number"": 3
+}"
+187,1376.tif,1,0,0,"{
+""chromosomes"": ""7""
+}"
+188,1377.tif,1,0,0,"{
+""answer"": ""7""
+}"
+189,138.tif,0,3,7,"{""answer"": ""7""}"
+190,1380.tif,1,0,0,"{
+""answer"": ""14""
+}"
+191,1381.tif,1,0,0,"{
+  ""answer"": 8,
+  ""reasoning"": ""The image contains two sets of 3 chromosomes each, which means there are 6 sets of 3 chromosomes. Adding these together gives 18 total chromosomes.""
+}"
+192,1389.tif,0,30,5,"{
+  ""answer"": {
+    ""count"": 7
+  }
+}"
+193,1390.tif,0,21,11,"{
+  ""chromosomes"": 14,
+  ""description"": ""The image contains 14 chromosomes.""
+}"
+194,1393.tif,0,15,6,"{
+   ""answer"": {
+      ""numerator"": 1,
+      ""denominator"": 1
+   }
+}"
+195,1394.tif,0,15,9,"{
+""count"": 3,
+""chromosomes_in_image"": [
+{
+""x_shape"": ""X"",
+""number_of_chromosomes"": ""2"",
+""title"": """"
+},
+{
+""x_shape"": ""X"",
+""number_of_chromosomes"": ""2"",
+""title"": """"
+}
+]
+}"
+196,14.tif,0,8,0,"```json
+{""value"": ""14""}
+```"
+197,1405.tif,0,7,12,"{
+    ""chromosomes"": 19,
+    ""message"": ""Image contains 19 chromosomes.""
+}"
+198,1406.tif,0,8,7,"{
+""chromosomes"": 4
+}"
+199,1408.tif,0,1,12,"{
+""answer"": ""22""
+}"
+200,1409.tif,0,18,11,"{
+""answer"": ""7""
+}"
+201,1410.tif,0,23,17,"{
+  ""chromosomes"": 7
+}"
+202,1411.tif,0,7,4,"{
+  ""answer"": 22
+}"
+203,1413.tif,0,14,10,"{
+""number"": ""14""
+}"
+204,1414.tif,0,13,19,[14]
+205,1415.tif,0,3,2,"{
+""count"": 3
+}"
+206,1425.tif,0,8,2,"{""value"": 14}"
+207,1426.tif,0,3,4,[7]
+208,1428.tif,0,2,2,"{
+  ""count"": 8
+}"
+209,1429.tif,0,29,47,"{""chromosomes"": ""1""}"
+210,1430.tif,0,23,36,[7]
+211,1433.tif,0,10,13,"{""value"": 14}"
+212,1434.tif,0,8,14,"{
+""answer"": ""7""
+}"
+213,1444.tif,0,1,0,"```json
+{
+  ""chromosomes"": 14
+}
+```"
+214,1445.tif,0,2,0,"{
+  ""count"": 3
+}"
+215,1446.tif,0,1,1,"{""answer"": ""7""}"
+216,1448.tif,0,6,0,"{
+""chromosomes"": ""3""
+}"
+217,1449.tif,0,16,4,"[{""value"": ""7""}]"
+218,145.tif,0,10,30,"{ ""value"": ""4"" }"
+219,1450.tif,0,32,5,"{
+   ""count"": 3
+}"
+220,1451.tif,0,9,1,"{
+""number"": ""1""
+}"
+221,1453.tif,0,13,1,"{""chromosomes"": 14}"
+222,1454.tif,0,11,1,"```json
+{
+  ""number"": 14
+}
+```"
+223,146.tif,0,6,26,"{
+""answer"": 14
+}"
+224,1460.tif,1,0,0,"{
+""answer"": 3,
+""reason"": ""The image contains only three chromosomes.""
+}"
+225,1465.tif,0,8,5,"{
+""answer"": ""7""
+}"
+226,1468.tif,0,15,3,"{
+""answer"": ""4""
+}"
+227,1469.tif,0,30,18,[3]
+228,1470.tif,0,11,11,[7]
+229,1473.tif,0,16,15,"{
+""answer"": ""7""
+}"
+230,1474.tif,0,6,15,"{
+""answer"": ""22""
+}"
+231,148.tif,0,6,30,"{
+    ""chromosomes"": 14
+}"
+232,1480.tif,1,0,0,"{
+  ""value"": 14
+}"
+233,1484.tif,1,0,0,"{
+""count"": ""3""
+}"
+234,1485.tif,0,2,8,"{
+""number"": ""7""
+}"
+235,1489.tif,0,35,55,"{""answer"": ""18""}"
+236,149.tif,0,30,81,"{
+""chromosomes"": 7
+}"
+237,1490.tif,0,14,18,"{
+  ""answer"": 8,
+  ""reasoning"": ""The image contains 3 chromosomes.""
+}"
+238,1492.tif,0,1,0,"{""count"": 3}"
+239,1493.tif,0,28,22,[14]
+240,1494.tif,0,13,10,"{""answer"": ""7""}"
+241,15.tif,5,2,1,"{
+  ""number"": 8
+}"
+242,150.tif,0,15,61,"{
+  ""answer"": 22,
+  ""reasoning"": ""The image contains 22 chromosomes.""
+}"
+243,1508.tif,1,1,2,"{
+  ""count"": 14
+}"
+244,1509.tif,0,8,13,"{
+""answer"": ""3""
+}"
+245,151.tif,0,7,37,"{
+    ""chromosomes"": 14
+}"
+246,1512.tif,0,13,19,"{
+  ""chromosome_count"": 19
+}"
+247,1513.tif,0,44,33,"{
+  ""value"": 14
+}"
+248,1514.tif,0,5,15,"{
+""answer"": 7
+}"
+249,152.tif,0,9,29,"{
+""answer"": ""22""
+}"
+250,153.tif,0,17,55,"```json
+{
+  ""answer"": 14,
+  ""description"": ""The image contains 14 chromosomes.""
+}
+```"
+251,1532.tif,1,0,3,"```json
+{
+""number_of_chromosomes"": 14
+}
+```"
+252,1533.tif,1,0,14,"{
+""answer"": ""3""
+}"
+253,1534.tif,0,12,32,"{""chromosomes"": 14}"
+254,1536.tif,1,0,0,"```json
+{
+  ""value"": 14
+}
+```"
+255,1537.tif,0,13,21,"{
+""chromosome_count"": ""7""
+}"
+256,1538.tif,16,16,25,"{
+    ""count"": 7
+}"
+257,154.tif,0,20,62,"{
+""answer"": ""7""
+}"
+258,1543.tif,1,0,0,"{
+""ch"": ""4""
+}"
+259,1549.tif,0,11,13,"{
+  ""chromosomes"": 3
+}"
+260,155.tif,0,7,13,"[{""value"": 14}]"
+261,1550.tif,0,7,14,"{
+ ""chromosomes"": {
+ ""count"": 3,
+ ""type"": ""x""
+ }
+}"
+262,1552.tif,0,2,1,"{
+    ""count"": 7,
+    ""result"": [
+        {
+            ""name"": ""X"",
+            ""value"": 7
+        }
+    ]
+}"
+263,1553.tif,0,34,45,"{
+""answer"": ""14""
+}"
+264,1554.tif,0,29,32,"{
+    ""chromosome_count"": 3
+}"
+265,1557.tif,0,5,9,"[{""value"": ""22""}]"
+266,1558.tif,0,8,6,"{
+""answer"": ""28""
+}"
+267,1562.tif,1,0,0,"{
+""number"": 22
+}"
+268,1569.tif,0,14,28,"{""answer"": ""1""}"
+269,157.tif,0,3,28,"{
+""number"": ""14""
+}"
+270,1570.tif,0,8,16,"{
+""chromosomes"": ""14""
+}"
+271,1573.tif,0,21,42,"{
+    ""chromosomes"": 14
+}"
+272,1574.tif,0,9,11,"{""answer"": ""3""}"
+273,1588.tif,0,2,0,"{
+""answer"": ""14""
+}"
+274,1589.tif,0,25,14,"{""value"": ""14""}"
+275,1590.tif,0,23,18,"{""chromosomes"": 7}"
+276,1592.tif,0,6,1,"{
+""answer"": ""1""
+}"
+277,1593.tif,0,31,18,"{""value"": 14}"
+278,1594.tif,1,22,24,"{
+    ""count"": 7
+}"
+279,1595.tif,15,0,5,"{
+""answer"": 2
+}"
+280,1597.tif,0,1,4,"{
+  ""value"": {
+    ""numerator"": 8,
+    ""denominator"": 3
+  }
+}"
+281,1598.tif,1,3,0,"{
+""chromosomes"": 14
+}"
+282,1599.tif,1,0,0,"{
+""answer"": ""22""
+}"
+283,16.tif,4,8,6,"{
+""answer"": ""3""
+}"
+284,1605.tif,0,3,0,"{
+  ""chromosomes"": 3
+}"
+285,1606.tif,0,3,0,"{
+""ch"": ""14""
+}"
+286,1609.tif,0,40,11,"{""value"": ""14""}"
+287,1610.tif,0,20,1,"{
+  ""value"": 7
+}"
+288,1613.tif,0,15,1,"{
+  ""value"": 3
+}"
+289,1614.tif,0,17,2,"[{""value"": ""1""}]"
+290,162.tif,0,2,2,"[{""value"": ""14""}]"
+291,1626.tif,1,0,2,"{
+""answer"": ""4""
+}"
+292,1627.tif,2,0,0,"{
+""answer"": 7
+}"
+293,1628.tif,2,0,0,"{
+    ""chromosomes"": 12,
+    ""description"": """"
+}"
+294,1629.tif,0,28,42,"{
+""count"": 7,
+""message"": ""The chromosome count in the image is 7.""
+}"
+295,1630.tif,1,23,22,"```json
+{
+  ""answer"": ""14""
+}
+```"
+296,1631.tif,1,0,1,"```json
+[7]
+```"
+297,1633.tif,0,27,32,"{
+""chromosome_number"": 3
+}"
+298,1634.tif,0,22,31,"{
+   ""chromosomes"": 7
+}"
+299,1637.tif,0,7,10,"{
+ ""value"": ""14""
+}"
+300,1638.tif,0,3,2,"{
+    ""value"": 7
+}"
+301,1645.tif,0,2,2,"{
+""answer"": ""22""
+}"
+302,1648.tif,0,2,1,"{
+    ""chromosome_count"": 7
+}"
+303,1649.tif,0,56,14,"{
+  ""chromosomes"": 14
+}"
+304,165.tif,0,7,18,"{
+    ""answer"": 3,
+    ""reasoning"": ""The image contains 3 chromosomes.""
+}"
+305,1650.tif,0,11,1,"{
+""chromosomes"": 7
+}"
+306,1653.tif,0,11,6,"{
+""chromosomes"": ""7""
+}"
+307,166.tif,0,27,65,"{
+  ""answer"": 22,
+  ""reasoning"": ""The image contains 22 chromosomes.""
+}"
+308,1661.tif,1,2,0,"{
+    ""count"": 3
+}"
+309,1662.tif,2,2,0,"{
+    ""answer"": [
+        14,
+        7,
+        22
+    ]
+}"
+310,1665.tif,1,0,0,"{
+""answer"": ""22""
+}"
+311,1666.tif,3,1,1,"{""value"":7}"
+312,1669.tif,0,19,13,"{
+""chrm"": ""14""
+}"
+313,167.tif,0,30,42,"[{""value"": ""22"", ""color"": ""#FF9800""}]"
+314,1670.tif,1,41,36,"{
+""answer"": ""7""
+}"
+315,1671.tif,4,15,11,"{
+""number"": 7
+}"
+316,1673.tif,0,6,10,"{
+""answer"": ""7""
+}"
+317,1674.tif,1,24,13,"```json
+{
+  ""number_of_chromosomes"": 14
+}
+```"
+318,1675.tif,1,2,0,"{
+""answer"": ""22""
+}"
+319,168.tif,0,16,7,"{
+""answer"": 14,
+""reasoning"": ""The image contains 4 groups of four chromosomes each, resulting in 14 total chromosomes.""
+}"
+320,1681.tif,0,3,0,"{
+""answer"": ""7""
+}"
+321,1686.tif,0,5,1,"{
+""chiasmomeres"": ""7"",
+""non-chiasmomeres"": ""17""
+}"
+322,1689.tif,1,3,1,"{
+""number_of_chromosomes"": ""14""
+}"
+323,169.tif,0,23,24,"{
+""chromosomes"": ""14""
+}"
+324,1690.tif,0,36,7,"{
+  ""answer"": 7,
+  ""reasoning"": [
+    ""In the image, there are four connected components that represent chromosomes.""
+  ]
+}"
+325,1691.tif,0,8,2,"{
+  ""answer"": [
+    4,
+    14
+  ]
+}"
+326,1693.tif,1,0,0,"{
+  ""value"": 14
+}"
+327,1694.tif,0,15,11,"{
+""answer"": ""14""
+}"
+328,1695.tif,0,15,3,"{""answer"": ""14""}"
+329,17.tif,1,0,0,"{
+    ""chromosomes"": 7
+}"
+330,170.tif,0,18,49,"{""value"":14}"
+331,1705.tif,0,2,0,"{
+  ""chromosomes"": 7
+}"
+332,1706.tif,0,2,1,"{
+  ""answer"": ""14""
+}"
+333,1709.tif,0,18,3,"{
+  ""count"": 7
+}"
+334,171.tif,2,11,11,"{""chromosomes"": ""4""}"
+335,1710.tif,0,32,5,"{
+""number"": 4
+}"
+336,1711.tif,0,1,2,"{
+""answer"": ""22""
+}"
+337,1713.tif,0,12,5,[7]
+338,1714.tif,0,12,5,"{
+""chromosomes"": 14
+}"
+339,172.tif,0,6,6,"{
+""answer"": ""4""
+}"
+340,1720.tif,2,1,0,"{""answer"":14}"
+341,1721.tif,1,0,0,"{""answer"": ""3""}"
+342,1722.tif,0,3,6,"{
+""count"": ""14""
+}"
+343,1724.tif,2,0,2,"{
+""chromosomes"": 4
+}"
+344,1725.tif,1,1,3,"{""number_of_chromosomes"": 3}"
+345,1726.tif,1,7,1,"{
+  ""answer"": 7
+}"
+346,1727.tif,1,1,2,"{
+  ""number"": 7
+}"
+347,1728.tif,1,0,0,"{
+  ""value"": 7
+}"
+348,1729.tif,3,17,9,"{""answer"": ""7""}"
+349,173.tif,0,35,29,"{
+""answer"": ""7""
+}"
+350,1730.tif,0,41,16,[7]
+351,1731.tif,0,4,10,"{
+""chro"": 14,
+""yes"": true
+}"
+352,1732.tif,1,5,7,"{
+""chromosome_count"": ""4""
+}"
+353,1733.tif,2,1,1,"{
+""answer"": ""14""
+}"
+354,1734.tif,1,15,5,"{
+  ""count"": 7
+}"
+355,1735.tif,0,2,11,"{
+""answer"": 3
+}"
+356,1736.tif,1,0,0,"{
+""answer"": ""3""
+}"
+357,1737.tif,3,0,0,"{
+""answer"": ""7""
+}"
+358,1738.tif,1,0,1,"{
+""chromosomes"": 14
+}"
+359,1739.tif,0,1,9,"{
+  ""value"": 14
+}"
+360,174.tif,1,11,25,"{
+""answer"": ""7""
+}"
+361,1740.tif,1,0,2,"{
+""chromosomes"": ""7""
+}"
+362,1744.tif,1,0,0,"{
+""number"": ""3""
+}"
+363,1745.tif,1,0,3,"{
+""chromosomes"": ""18""
+}"
+364,1749.tif,1,12,3,"{
+""chromosomes"": ""14""
+}"
+365,175.tif,1,0,0,[14]
+366,1750.tif,0,38,24,"{
+    ""count"": 14,
+    ""description"": ""The image contains 14 chromosomes.""
+}"
+367,1751.tif,0,4,1,"{
+""answer"": ""3""
+}"
+368,1753.tif,0,5,5,"{
+""chromosome_count"": 7
+}"
+369,1754.tif,0,26,12,"{
+""answer"": ""7""
+}"
+370,1755.tif,5,10,12,"{
+""answer"": ""7""
+}"
+371,1758.tif,1,1,1,"{
+  ""chromosomes"": 22
+}"
+372,1759.tif,2,0,3,"{
+  ""chromosome_count"": 14
+}"
+373,1760.tif,1,0,0,"{
+  ""value"": 3
+}"
+374,1764.tif,1,0,0,"{
+  ""number"": 14
+}"
+375,1765.tif,1,0,0,[7]
+376,1766.tif,1,0,0,"{
+    ""count"": 14
+}"
+377,1768.tif,3,0,0,"{ ""value"": 3 }"
+378,1769.tif,2,5,2,"{
+    ""number_of_chromosomes"": 3
+}"
+379,1770.tif,1,51,26,"{
+""chromosomes"": 3
+}"
+380,1771.tif,2,2,2,"{
+""answer"": ""7""
+}"
+381,1772.tif,2,0,0,[7]
+382,1773.tif,1,4,0,"{
+""count"": ""7""
+}"
+383,1774.tif,0,42,12,"{
+""number"": 3,
+""chromosomes"": ""3""
+}"
+384,1775.tif,1,0,0,"{""value"": ""2""}"
+385,1776.tif,1,0,0,"{""answer"": 14}"
+386,1779.tif,1,0,0,"{
+  ""count"": 7
+}"
+387,1785.tif,0,2,1,"{ ""number"": 3 }"
+388,1786.tif,0,4,7,"{""answer"": ""14""}"
+389,1789.tif,0,30,8,"{
+  ""value"": 7
+}"
+390,1790.tif,2,22,32,"{
+  ""number_of_chromosomes"": 14
+}"
+391,1791.tif,1,0,0,"{
+""answer"": ""3""
+}"
+392,1793.tif,0,15,5,"{""chromosomes"": ""7""}"
+393,1794.tif,0,17,5,"{""answer"": 1}"
+394,1796.tif,1,0,1,"{
+    ""count"": 14
+}"
+395,1797.tif,1,0,0,"{
+""answer"": ""3""
+}"
+396,18.tif,3,0,0,"{
+  ""answer"": 14
+}"
+397,1809.tif,0,36,18,"{
+""count"": ""3""
+}"
+398,1810.tif,0,28,17,"{
+""answer"": ""18""
+}"
+399,1813.tif,0,16,5,"```json
+{
+""answer"": ""14""
+}
+```"
+400,1814.tif,0,7,14,"{
+   ""chromosomes"": 4
+}"
+401,1822.tif,1,5,7,"{
+""count"": ""3""
+}"
+402,1823.tif,1,0,0,"```json
+{
+  ""answer"": 3,
+  ""description"": ""The image contains only one set of chromosomes.""
+}
+```"
+403,1825.tif,1,0,0,"{
+""answer"": ""3""
+}"
+404,1826.tif,0,6,2,"{
+""answer"": ""3""
+}"
+405,1827.tif,0,3,0,"{
+""number"": 3
+}"
+406,1829.tif,1,17,3,"{
+""chromosomes"": 19
+}"
+407,1830.tif,0,26,4,"{
+  ""chromosome_count"": 2
+}"
+408,1831.tif,1,0,2,"{
+""answer"": ""4""
+}"
+409,1833.tif,0,19,2,"{
+    ""count"": 8
+}"
+410,1834.tif,0,17,0,"[{""value"": ""7""}]"
+411,1835.tif,1,0,0,"{
+  ""answer"": 14,
+  ""confidence"": 0.98
+}"
+412,1836.tif,2,0,3,"{
+""answer"": ""3""
+}"
+413,1837.tif,1,1,0,"{""answer"": 14}"
+414,1840.tif,1,0,0,"{""value"": 14}"
+415,1841.tif,1,1,0,"{
+""answer"": ""14""
+}"
+416,1845.tif,0,10,2,"{
+""chromosomes"": ""3""
+}"
+417,1846.tif,0,7,4,"{
+""answer"": ""14""
+}"
+418,1848.tif,0,1,1,"{""answer"": ""1""}"
+419,1849.tif,0,27,11,"{
+""answer"": 7,
+""reasoning"": ""The image contains 7 chromosomes.""
+}"
+420,185.tif,0,9,26,"{
+""answer"": ""4""
+}"
+421,1850.tif,0,30,9,"{
+  ""number"": 7
+}"
+422,1853.tif,0,7,5,"{
+  ""chromosomes"": 7,
+  ""message"": ""The image contains 7 chromosomes.""
+}"
+423,1854.tif,0,7,8,"{
+""number_of_chromosomes"": 14,
+""reason"": ""The image contains 14 chromosomes.""
+}"
+424,1858.tif,1,0,0,"{
+ ""number"": 7
+}"
+425,186.tif,0,11,30,"{
+""answer"": ""22""
+}"
+426,1865.tif,0,5,8,"{
+""chromosomes"": ""3""
+}"
+427,1868.tif,0,7,1,"{
+  ""count"": 7
+}"
+428,1869.tif,0,30,21,"{
+""number"": ""3""
+}"
+429,187.tif,1,0,2,"{""value"": 1}"
+430,1870.tif,0,14,14,"{
+""answer"": ""19""
+}"
+431,1872.tif,0,4,1,"{
+""answer"": ""7""
+}"
+432,1873.tif,0,14,5,"{
+""answer"": ""3""
+}"
+433,1874.tif,0,7,5,"{
+  ""answer"": 19
+}"
+434,1875.tif,1,0,1,"{
+""answer"": ""7""
+}"
+435,1877.tif,1,0,0,[1]
+436,1879.tif,1,0,1,"{ ""chromosomes"": 7 }"
+437,188.tif,0,18,40,"{
+""count"": 7
+}"
+438,1886.tif,0,3,0,"{""chromosomes"": ""14""}"
+439,1888.tif,1,0,0,"{
+""answer"": ""14""
+}"
+440,1889.tif,0,8,5,"{
+""number"": 22
+}"
+441,189.tif,0,25,96,"{
+    ""answer"": {
+        ""chromosome_count"": 7,
+        ""description"": ""This image contains 7 chromosomes.""
+    }
+}"
+442,1890.tif,0,30,0,"{""value"": ""8""}"
+443,1891.tif,0,6,1,"{
+""answer"": ""7""
+}"
+444,1893.tif,0,9,2,"{
+""chromosomes"": 14
+}"
+445,1894.tif,1,17,1,"{
+""answer"": ""14""
+}"
+446,1895.tif,1,1,0,"{
+""answer"": ""7""
+}"
+447,1898.tif,2,0,0,"{
+  ""value"": 18
+}"
+448,1899.tif,2,0,0,"{
+""answer"": 7
+}"
+449,19.tif,5,0,0,"{
+""number"": ""14""
+}"
+450,190.tif,0,28,88,"[{""value"": ""7""}]"
+451,1901.tif,1,0,0,"{
+""answer"": ""22""
+}"
+452,1902.tif,1,0,0,"{
+""answer"": ""14""
+}"
+453,1909.tif,0,23,6,"{
+    ""number"": 8
+}"
+454,191.tif,1,4,33,"[{""value"": ""4""}]"
+455,1910.tif,0,20,12,"{
+""answer"": ""3""
+}"
+456,1911.tif,0,0,0,"{
+""answer"": ""14""
+}"
+457,1913.tif,0,19,14,"{
+""answer"": ""7""
+}"
+458,1914.tif,0,35,10,"{
+""chromosomes"": {
+""data_type"": ""integer"",
+""value"": ""14""
+}
+}"
+459,1915.tif,1,0,0,"{
+    ""chromosomes"": 3
+}"
+460,1919.tif,1,0,0,"{
+  ""number_of_chromosomes"": 7
+}"
+461,192.tif,0,34,56,"{
+""chromosomes"": 7
+}"
+462,1922.tif,1,0,0,"{""number"": ""7""}"
+463,1923.tif,1,0,0,"{
+  ""value"": 14
+}"
+464,1927.tif,1,0,0,"{
+""answer"": ""22""
+}"
+465,1929.tif,0,31,5,"{
+  ""value"": 14
+}"
+466,193.tif,0,22,117,"{""ch"": 14}"
+467,1930.tif,10,42,5,"```json
+{
+""answer"": ""3""
+}
+```"
+468,1933.tif,0,10,3,"{
+""count"": ""14""
+}"
+469,1934.tif,0,14,1,"{
+""chro"": ""14""
+}"
+470,194.tif,0,37,103,"{""number_of_chromosomes"": 14}"
+471,1949.tif,0,11,9,"{
+  ""count"": 7,
+  ""message"": """"
+}"
+472,195.tif,0,40,63,"{
+""answer"": ""7""
+}"
+473,1950.tif,0,28,17,"```json
+{
+  ""number"": 7,
+  ""description"": ""This chromosome image has 7 chromosomes.""
+}
+```"
+474,1951.tif,3,0,0,"{
+""chromosomes"": 4,
+""image_type"": ""cell_image""
+}"
+475,1953.tif,0,0,5,"[{""count"": ""14""}]"
+476,1954.tif,0,10,7,"{
+""chro"": ""7""
+}"
+477,1955.tif,1,0,0,"{
+""answer"": ""14""
+}"
+478,196.tif,0,11,21,"{
+    ""chromosomes"": 14
+}"
+479,1969.tif,0,15,14,"{
+""answer"": ""14""
+}"
+480,197.tif,0,19,56,"```json
+{
+  ""chromosome_count"": 1
+}
+```"
+481,1970.tif,0,14,8,"{
+""answer"": ""22""
+}"
+482,1973.tif,0,20,5,"{
+""answer"": ""3""
+}"
+483,1974.tif,0,23,10,"{
+""chromosomes"": 7
+}"
+484,198.tif,0,38,89,"{
+  ""chromosomes"": ""3""
+}"
+485,1982.tif,1,0,0,[7]
+486,1983.tif,2,0,2,"{
+""count"": ""7""
+}"
+487,1985.tif,1,0,2,"{
+""chromosome_count"": 3,
+""cell_images"": [
+{ ""chromosomes"": 3 }
+]
+}"
+488,1986.tif,1,0,3,"{""chromosomes"": 4}"
+489,1987.tif,2,0,1,"{
+ ""chromosomes"": 7
+}"
+490,1988.tif,1,1,2,"{
+  ""answer"": 14,
+  ""reasoning"": ""The image contains 3 x 4 = 12 chromosomes.""
+}"
+491,199.tif,0,17,42,"{""value"": ""2""}"
+492,1990.tif,0,29,14,"{
+""number"": ""1""
+}"
+493,1991.tif,0,12,4,"{
+""chromosomes"": 3
+}"
+494,1992.tif,1,0,2,"{
+""count"": 7
+}"
+495,1994.tif,0,12,8,"{""chromosomes"": 3}"
+496,1995.tif,0,8,3,"{
+""answer"": ""7""
+}"
+497,2.tif,4,0,0,"{
+""answer"": ""22""
+}"
+498,2006.tif,0,3,2,"```json
+{
+  ""answer"": 7
+}
+```"
+499,2009.tif,0,25,24,"{
+  ""answer"": ""7""
+}"
+500,201.tif,1,1,1,"```json
+[
+  {
+    ""number"": 7,
+    ""description"": ""The image contains 7 chromosomes.""
+  }
+]
+```"
+501,2010.tif,0,34,62,"```json
+{
+  ""chromosomes"": {
+    ""number"": 14
+  }
+}
+```"
+502,2013.tif,0,7,8,"{
+  ""value"": 22
+}"
+503,2014.tif,0,15,25,"[{""value"": 3}]"
+504,202.tif,1,0,0,"[{""value"": ""3""}]"
+505,2021.tif,1,0,0,"{
+""answer"": ""3""
+}"
+506,2022.tif,2,1,6,"{
+""chromosomes"": ""4""
+}"
+507,2029.tif,0,5,7,"{
+  ""answer"": 14,
+  ""description"": """"
+}"
+508,203.tif,1,0,0,"{""chromosomes"": 3}"
+509,2030.tif,0,23,18,"{
+  ""answer"": 7
+}"
+510,2031.tif,1,0,1,"{
+  ""count"": 8,
+  ""message"": """",
+  ""status"": """"
+}"
+511,2033.tif,0,6,1,"{
+  ""answer"": ""3""
+}"
+512,2034.tif,0,40,12,"{
+""answer"": ""7""
+}"
+513,2035.tif,1,1,2,"{""chromosomeCount"": ""14""}"
+514,2040.tif,1,0,0,"{
+""answer"": ""7""
+}"
+515,2041.tif,3,0,0,"{
+    ""chromosomes"": 14
+}"
+516,2042.tif,3,0,0,"{
+   ""chromosomes"": 7
+}"
+517,2045.tif,1,0,0,"```json
+{
+  ""answer"": 3,
+  ""description"": ""The image contains one chromosome.""
+}
+```"
+518,2046.tif,2,0,5,"{
+""chromosomes"": 4
+}"
+519,2047.tif,2,0,0,"```json
+{
+""number"": ""7""
+}
+```"
+520,2049.tif,0,16,24,"{
+""answer"": ""3""
+}"
+521,205.tif,2,4,1,"{
+""chiasmomas"": 3,
+""non-chiasmomas"": 22
+}"
+522,2050.tif,0,36,51,"{
+""chromosomes"": ""7""
+}"
+523,2051.tif,1,3,9,"{
+""number"": ""14""
+}"
+524,2053.tif,0,8,20,"{""chro"": ""7""}"
+525,2054.tif,1,19,55,"{
+   ""number"": ""14""
+}"
+526,2055.tif,1,1,3,"{ ""value"": 7 }"
+527,206.tif,1,2,14,"[{""number"": ""7""}]"
+528,2063.tif,1,0,0,"{""number"": 7}"
+529,2065.tif,0,12,5,"{
+""chromosome_count"": ""14""
+}"
+530,2068.tif,0,3,1,"{""chromosomes"": 3}"
+531,2069.tif,0,44,26,"{
+""answer"": ""7""
+}"
+532,207.tif,1,1,4,"{""value"": 3}"
+533,2070.tif,0,5,1,"{
+  ""chromosomeCount"": 3,
+  ""imageType"": """"
+}"
+534,2072.tif,0,1,0,"{
+""number"": ""3""
+}"
+535,2073.tif,0,9,5,"{
+""answer"": ""7""
+}"
+536,208.tif,0,11,25,"{
+""chromosomes"": 14
+}"
+537,2089.tif,1,5,0,"[{""value"": ""7""}]"
+538,209.tif,0,38,68,"{
+""answer"": ""2""
+}"
+539,2090.tif,1,1,1,"[{""value"": 7}]"
+540,2093.tif,0,20,5,"{
+""count"": 2
+}"
+541,2094.tif,0,7,5,"{""answer"": ""7""}"
+542,210.tif,0,18,80,"{
+""chromosomes"": 14
+}"
+543,2102.tif,1,0,0,"{
+""answer"": ""3""
+}"
+544,2103.tif,1,0,0,"{""value"": ""14""}"
+545,2105.tif,1,0,0,"{""value"": ""3""}"
+546,2106.tif,1,10,12,"{
+""number"": ""14""
+}"
+547,2108.tif,1,1,4,"{""answer"": ""7""}"
+548,2109.tif,0,49,68,"{
+""number"": 14
+}"
+549,211.tif,0,11,34,"[{""value"": ""14""}]"
+550,2110.tif,0,25,32,"```json
+{
+  ""answer"": 3,
+  ""explanation"": ""The image contains only one chromosome structure, which is a chromosome.""
+}
+```"
+551,2112.tif,2,0,3,"{
+""answer"": ""4""
+}"
+552,2113.tif,0,5,7,"{
+  ""value"": 3,
+  ""description"": ""The image contains 3 chromosomes.""
+}"
+553,2114.tif,0,2,4,"{
+    ""number"": 7
+}"
+554,2118.tif,1,0,0,"{
+""answer"": ""3""
+}"
+555,2119.tif,1,0,0,"{
+  ""chromosomes"": 18
+}"
+556,212.tif,0,11,22,"{""answer"": {""value"": ""14""}}"
+557,2126.tif,1,0,5,"{
+ ""chromosomes"": 7
+}"
+558,2127.tif,1,0,1,"{
+  ""answer"": 3,
+  ""description"": ""The image contains 3 chromosomes.""
+}"
+559,2129.tif,0,29,23,"```json
+{""chromosomeCount"": ""8""}
+```"
+560,213.tif,0,23,32,"{
+    ""chromosome_count"": 7,
+    ""confidence"": 99,
+    ""description"": """"
+}"
+561,2130.tif,8,2,14,"{""count"": ""22""}"
+562,2131.tif,1,0,1,"{
+""answer"": ""1""
+}"
+563,2133.tif,0,19,15,"{
+""answer"": ""14""
+}"
+564,2134.tif,2,9,18,"{
+""answer"": 18,
+""reasoning"": ""The image contains 4 cells with 18 chromosomes each.""
+}"
+565,2135.tif,2,0,4,"{
+  ""value"": 7
+}"
+566,2138.tif,1,0,1,"{
+""answer"": ""1""
+}"
+567,2139.tif,1,0,0,"{
+""answer"": ""14""
+}"
+568,214.tif,0,77,72,[7]
+569,2144.tif,3,3,0,"{
+  ""chromosomes"": 14
+}"
+570,2148.tif,6,0,6,[7]
+571,2149.tif,0,10,3,"{
+""chromosomes"": ""14""
+}"
+572,215.tif,0,21,63,"[{""value"": ""7""}]"
+573,2150.tif,0,16,9,"{
+  ""answer"": ""3""
+}"
+574,2151.tif,0,6,4,"{
+  ""answer"": ""3""
+}"
+575,2153.tif,0,5,9,"{
+  ""value"": 7
+}"
+576,2154.tif,0,32,15,"{
+  ""answer"": 3,
+  ""reasoning"": [
+    ""The image contains a single group of 3 chromosomes.""
+  ]
+}"
+577,2155.tif,0,20,9,"[{""value"": ""3"", ""confidence"": 0.9}]"
+578,2157.tif,0,13,7,"{
+  ""answer"": ""4""
+}"
+579,2161.tif,1,0,0,"{
+  ""chromosomes"": {
+    ""numerator"": 1,
+    ""denominator"": 18
+  }
+}"
+580,2165.tif,2,2,4,"{
+""answer"": ""7""
+}"
+581,2169.tif,1,1,12,"{""chromosomes"": ""7""}"
+582,2170.tif,0,35,7,"[{""chromosomes"": {""value"": ""14"", ""unit"": ""number""}}]"
+583,2171.tif,3,0,4,"{
+""answer"": ""14""
+}"
+584,2174.tif,0,3,0,"{
+  ""answer"": 3
+}"
+585,2175.tif,7,1,3,"{
+""answer"": ""14""
+}"
+586,2178.tif,1,0,0,"{
+  ""value"": 22
+}"
+587,2179.tif,1,1,0,"{
+""number"": 3
+}"
+588,218.tif,1,3,6,"{
+  ""answer"": 3,
+  ""reason"": ""The cell image contains 3 chromosomes.""
+}"
+589,2188.tif,0,2,1,"{
+    ""count"": 22,
+    ""message"": """",
+    ""status"": """"
+}"
+590,2189.tif,0,25,29,"{
+""chromosome count"": ""7""
+}"
+591,2190.tif,0,4,10,"{
+""chromosomes"": {
+""total"": 22
+}
+}"
+592,2191.tif,0,1,2,"{
+""answer"": ""7""
+}"
+593,2192.tif,0,1,1,"{
+""answer"": ""4""
+}"
+594,2193.tif,0,13,12,"{
+""answer"": ""14""
+}"
+595,2194.tif,0,5,7,"{
+""answer"": ""7""
+}"
+596,22.tif,1,0,0,"{
+""answer"": ""4""
+}"
+597,2208.tif,1,0,0,"{""value"": ""14""}"
+598,2209.tif,1,13,4,"{
+  ""value"": 29
+}"
+599,2210.tif,0,13,6,"{
+    ""chromosomes"": 19
+}"
+600,2213.tif,0,27,7,"{""chromosome_count"": 7}"
+601,2214.tif,0,28,10,"{
+    ""answer"": 14,
+    ""description"": ""The image contains 14 chromosomes.""
+}"
+602,2215.tif,0,3,3,[1]
+603,2226.tif,1,2,6,"{
+""count"": 22
+}"
+604,2229.tif,2,8,1,"```json
+{
+  ""chromosomes"": 7
+}
+```"
+605,2230.tif,6,10,14,"{""answer"": {""7""}}"
+606,2231.tif,1,0,0,"{
+  ""value"": 7
+}"
+607,2232.tif,0,0,1,"{
+""chromosomes"": 14,
+""answer"": ""14""
+}"
+608,2233.tif,0,9,2,"{""answer"": 7}"
+609,2234.tif,0,30,19,"{
+""number_of_chromosomes"": 22
+}"
+610,2235.tif,1,16,8,"{""value"": 3}"
+611,2236.tif,1,0,0,"{
+""answer"": ""3""
+}"
+612,2244.tif,1,0,0,"{
+  ""number"": 7
+}"
+613,2245.tif,1,5,1,"{
+""chromosomeCount"": 3,
+""imageType"": ""cellImage"",
+""numberOfImages"": 1
+}"
+614,2246.tif,0,4,0,"{
+  ""chromosomes"": 14
+}"
+615,2248.tif,1,0,0,"{
+""answer"": ""22""
+}"
+616,2249.tif,1,39,16,"{""ch"": ""7""}"
+617,225.tif,0,15,25,"{
+""number_of_chromosomes"": ""3""
+}"
+618,2250.tif,0,28,8,"{
+""chiasmata"": 7,
+""chromosomes"": 42
+}"
+619,2251.tif,0,2,1,"{
+""chrm"": ""14""
+}"
+620,2253.tif,0,4,3,"{
+""chrm"": ""7""
+}"
+621,2254.tif,0,6,7,"{""chrm_num"": 14}"
+622,2259.tif,0,1,0,"{
+""chromosome_count"": ""14""
+}"
+623,226.tif,0,6,29,"{""value"":7}"
+624,2260.tif,1,0,0,"{ ""answer"": 7 }"
+625,2261.tif,1,0,0,"{
+""answer"": ""7""
+}"
+626,2264.tif,1,0,0,"{
+  ""chromosomes"": 7,
+  ""message"": ""Image contains 7 chromosomes.""
+}"
+627,2265.tif,1,0,0,"{
+  ""count"": 14
+}"
+628,2269.tif,0,4,1,"```json
+{
+  ""count"": 22
+}
+```"
+629,2270.tif,7,35,7,"{
+""answer"": 14
+}"
+630,2274.tif,10,26,8,"{
+""chromosomes"": 7
+}"
+631,228.tif,0,7,7,"{
+""count"": ""22""
+}"
+632,2284.tif,1,0,0,"```json
+{
+  ""number"": 8
+}
+```"
+633,2285.tif,2,0,0,"{
+   ""chromosomes"": 7
+}"
+634,2288.tif,1,8,1,"{
+""answer"": ""3""
+}"
+635,2289.tif,1,22,20,"{
+   ""count"": 7
+}"
+636,229.tif,0,16,38,"{
+  ""count"": 14,
+  ""description"": ""The image contains 14 chromosomes.""
+}"
+637,2290.tif,6,33,9,"{ ""chromosomes"": 7 }"
+638,2291.tif,1,0,0,"{
+  ""value"": 14
+}"
+639,2292.tif,7,1,20,"[{""ch"": ""7""}]"
+640,2293.tif,0,8,1,[7]
+641,2294.tif,0,14,2,"{""answer"": ""3""}"
+642,2295.tif,0,1,0,"{
+""chromosomes"": ""14""
+}"
+643,2296.tif,2,0,1,"{
+""answer"": ""7""
+}"
+644,2297.tif,1,6,1,"{
+  ""chromosome_count"": 22
+}"
+645,23.tif,1,0,0,"{
+""chromosomes"": 3
+}"
+646,230.tif,0,17,30,"{
+""answer"": ""12""
+}"
+647,2302.tif,1,0,0,"{
+""answer"": ""7""
+}"
+648,2303.tif,1,0,0,"{ ""answer"": 14 }"
+649,2309.tif,0,5,8,"{
+""chromosomes"": 7,
+""X-shaped"": true
+}"
+650,231.tif,0,4,15,"```json
+{
+  ""count"": 14
+}
+```"
+651,2310.tif,0,8,7,"{
+""answer"": ""10""
+}"
+652,2313.tif,0,22,33,"{
+  ""chromosomes"": 14
+}"
+653,2314.tif,0,25,21,"{
+   ""chromosome_count"": 7
+}"
+654,2317.tif,0,4,12,"{
+""answer"": ""3""
+}"
+655,2318.tif,0,5,5,"{
+  ""answer"": 8,
+  ""description"": ""The cells have 22 chromosomes.""
+}"
+656,232.tif,0,4,9,"{
+""answer"": ""1""
+}"
+657,2320.tif,1,0,0,"{
+""answer"": ""7""
+}"
+658,2321.tif,2,1,0,"{
+""chrm_count"": 14
+}"
+659,2322.tif,1,3,1,"{
+    ""chromosomes"": {
+        ""value"": 2,
+        ""units"": ""number""
+    }
+}"
+660,2323.tif,1,1,0,"{
+""number"": ""14""
+}"
+661,2324.tif,1,0,0,"{
+  ""chromosomes"": 7
+}"
+662,2325.tif,1,0,0,"{
+    ""chromosomes"": {
+        ""count"": 8
+    }
+}"
+663,2326.tif,1,0,0,"{
+""answer"": ""14""
+}"
+664,2328.tif,3,4,0,"{
+""number"": 7
+}"
+665,2329.tif,1,11,0,"{
+""chromosomes"": 22,
+""ecDNA"": 0,
+""Nuclei"": 0
+}"
+666,233.tif,0,14,30,"{""count"": 14}"
+667,2330.tif,0,19,3,"{
+  ""chromosomes"": 7
+}"
+668,2331.tif,0,6,2,"{
+  ""chromosomes"": 7
+}"
+669,2332.tif,1,8,0,"{
+""count"": ""7""
+}"
+670,2333.tif,1,23,2,"{
+    ""chromosomes"": 22,
+    ""answer"": true
+}"
+671,2334.tif,1,0,0,"{
+""chromosomes"": ""3""
+}"
+672,2335.tif,1,0,0,"{
+  ""chromosomes"": [
+    {
+      ""value"": 1,
+      ""count"": 1
+    },
+    {
+      ""value"": 4,
+      ""count"": 1
+    }
+  ]
+}"
+673,2337.tif,1,2,0,"{""value"": 7}"
+674,2338.tif,1,0,0,"{
+  ""chromosomes"": 7
+}"
+675,2339.tif,1,0,0,"{
+""answer"": ""3""
+}"
+676,234.tif,0,14,24,"{
+""answer"": ""4""
+}"
+677,2340.tif,5,0,1,"{
+  ""number"": 7
+}"
+678,2341.tif,1,0,0,"{
+""chromosomes"": ""7""
+}"
+679,2342.tif,1,0,0,"{
+  ""answer"": 8,
+  ""description"": ""The image contains 8 chromosomes.""
+}"
+680,235.tif,0,9,25,"{
+  ""answer"": 7,
+  ""description"": ""This image contains 7 chromosomes.""
+}"
+681,236.tif,2,2,32,"{
+""answer"": ""18""
+}"
+682,237.tif,0,2,17,"{number_of_chromosomes_in_image: ""7""}"
+683,238.tif,0,4,18,"{
+""chromosome_count"": ""7""
+}"
+684,242.tif,0,6,12,"{
+""count"": ""7""
+}"
+685,243.tif,0,2,5,"```json
+{
+  ""chromosomes"": 7,
+  ""message"": ""The image contains 7 chromosomes.""
+}
+```"
+686,245.tif,28,0,16,"{
+  ""count"": 7
+}"
+687,246.tif,6,4,71,"{
+  ""answer"": 3
+}"
+688,247.tif,0,12,64,"{
+  ""chromosomes"": 7
+}"
+689,248.tif,0,24,60,"[{""value"": ""14""}]"
+690,249.tif,12,6,13,"{
+    ""chromosomes"": 22,
+    ""ecDNA"": true,
+    ""nuclei"": true
+}"
+691,250.tif,2,5,65,"{""answer"": ""1""}"
+692,251.tif,0,24,85,"{""answer"": ""7""}"
+693,252.tif,0,22,120,"{""answer"": ""1""}"
+694,253.tif,6,22,116,[22]
+695,254.tif,2,17,154,"{
+  ""value"": 14
+}"
+696,255.tif,0,13,86,"{
+  ""chromosomes"": {
+    ""count"": 3,
+    ""image"": ""A cell image containing 3 chromosomes""
+  }
+}"
+697,257.tif,11,6,127,"{
+""answer"": ""3""
+}"
+698,258.tif,0,1,78,"{
+  ""value"": 3
+}"
+699,259.tif,0,3,24,[7]
+700,260.tif,0,2,5,"{
+""number"": ""3""
+}"
+701,262.tif,0,2,7,"{""value"": ""3""}"
+702,263.tif,0,13,34,"{""chrm_count"": ""7""}"
+703,266.tif,0,15,22,"{
+""answer"": ""14""
+}"
+704,267.tif,0,35,37,[3]
+705,268.tif,0,11,49,"{
+""answer"": 7
+}"
+706,269.tif,0,13,110,"{
+  ""value"": 22
+}"
+707,270.tif,0,6,25,"{
+""answer"": ""22""
+}"
+708,271.tif,0,15,26,"{
+  ""number"": 7
+}"
+709,272.tif,0,21,86,"{
+  ""value"": 8
+}"
+710,273.tif,0,26,156,"{
+""number"": ""7""
+}"
+711,274.tif,0,10,68,"{
+  ""answer"": ""14""
+}"
+712,276.tif,0,4,18,[14]
+713,277.tif,0,13,51,"{
+  ""chromosomes"": {
+    ""count"": [
+      {
+        ""value"": 0,
+        ""label"": ""No chromosomes""
+      },
+      {
+        ""value"": 22,
+        ""label"": ""22 chromosomes""
+      },
+      {
+        ""value"": 3,
+        ""label"": ""3 chromosomes""
+      },
+      {
+        ""value"": 4,
+        ""label"": ""4 chromosomes""
+      },
+      {
+        ""value"": 14,
+        ""label"": ""14 chromosomes""
+      },
+      {
+        ""value"": 7,
+        ""label"": ""7 chromosomes""
+"
+714,289.tif,0,26,17,[1]
+715,29.tif,0,9,0,"{
+    ""chromosomes"": 7
+}"
+716,290.tif,0,13,16,"{
+""answer"": ""7""
+}"
+717,293.tif,0,27,10,"{
+""answer"": ""4""
+}"
+718,294.tif,0,11,20,"{
+   ""chromosomes"": {
+      ""total"": 24
+   }
+}"
+719,295.tif,0,7,11,"{""answer"": ""7""}"
+720,297.tif,0,2,1,"{
+""chromosomes"": ""4""
+}"
+721,298.tif,0,7,5,"{
+""chromosomes"": ""7""
+}"
+722,3.tif,2,0,0,"{
+""answer"": ""3""
+}"
+723,309.tif,0,18,28,"{""answer"": ""1""}"
+724,310.tif,0,9,22,"{
+""chromosomes"": ""7""
+}"
+725,311.tif,0,3,10,"{
+""count"": ""3""
+}"
+726,313.tif,0,20,22,"{
+""answer"": ""3""
+}"
+727,314.tif,0,18,30,"{
+""answer"": ""7""
+}"
+728,315.tif,0,7,11,"{
+""answer"": {
+""data_type"": ""chromosome"",
+""num_chromosomes"": 7
+}
+}"
+729,32.tif,0,16,0,"{
+   ""answer"": {
+      ""count"": 7,
+      ""type"": ""number""
+   }
+}"
+730,325.tif,0,3,0,"{""value"":7}"
+731,326.tif,0,3,6,"{
+""number_of_chromosomes"": 14,
+""chromosome_type"": ""X-shaped""
+}"
+732,328.tif,0,4,0,"{
+""chromosomes"": ""7""
+}"
+733,329.tif,0,17,26,[7]
+734,33.tif,0,45,2,"{""value"": ""22""}"
+735,330.tif,0,11,27,"{""number_of_chromosomes"": 3}"
+736,331.tif,0,8,15,"{""chromosomes"": ""18""}"
+737,333.tif,0,15,11,"{
+  ""answer"": 7,
+  ""confidence"": 98
+}"
+738,334.tif,0,21,33,"{
+""answer"": ""7""
+}"
+739,335.tif,0,7,10,"{
+""answer"": ""3""
+}"
+740,343.tif,1,0,0,"{
+""chromosomes"": 22
+}"
+741,344.tif,0,12,1,"```json
+{
+  ""value"": 14,
+  ""description"": ""The image contains 14 chromosomes.""
+}
+```"
+742,345.tif,0,58,37,"{
+""chromosomes"": ""3""
+}"
+743,346.tif,0,40,51,"{
+""answer"": ""14""
+}"
+744,347.tif,1,2,6,"{
+  ""value"": 8
+}"
+745,348.tif,0,14,28,"```json
+[7]
+```"
+746,349.tif,0,30,80,"{
+  ""answer"": ""7""
+}"
+747,350.tif,0,11,68,"{
+  ""value"": 14
+}"
+748,352.tif,0,13,17,[7]
+749,353.tif,0,32,75,"{
+  ""answer"": ""14""
+}"
+750,354.tif,0,15,57,"{
+""chromosomes"": 14
+}"
+751,357.tif,0,3,6,"{
+""answer"": ""7""
+}"
+752,36.tif,4,1,0,"{
+""answer"": 3,
+""reason"": ""This image contains 3 chromosomes""
+}"
+753,368.tif,1,0,0,"{
+""chromosomes"": 3
+}"
+754,369.tif,0,15,11,"{
+""answer"": ""14""
+}"
+755,37.tif,2,18,5,[14]
+756,370.tif,0,14,18,"{
+  ""answer"": 7,
+  ""description"": ""The image contains 7 chromosomes.""
+}"
+757,371.tif,0,4,6,"{
+""count"": 14
+}"
+758,372.tif,1,0,0,"{
+""number"": 14
+}"
+759,373.tif,0,21,10,"{""value"": ""7""}"
+760,374.tif,0,23,17,"{
+  ""chromosomes"": 8,
+  ""image_type"": ""cell"",
+  ""description"": ""The image contains multiple chromosome structures.""
+}"
+761,375.tif,0,3,3,"{
+""number"": 14
+}"
+762,378.tif,0,4,3,"{
+""answer"": {
+""chromosomes"": ""3""
+}
+}"
+763,385.tif,0,4,8,"{
+""answer"": ""7""
+}"
+764,388.tif,0,11,12,"{
+""answer"": ""7""
+}"
+765,389.tif,0,32,46,"{
+""number"": ""1""
+}"
+766,390.tif,0,26,72,"{ ""chromosomes"": 7 }"
+767,391.tif,0,8,34,"{
+""chromosomes"": ""14""
+}"
+768,392.tif,0,19,20,"{
+ ""answer"": 14,
+ ""reasoning"": ""The cell image contains 14 chromosomes."""
+769,393.tif,0,14,23,"{
+""answer"": ""22""
+}"
+770,394.tif,0,26,78,"{
+""answer"": ""14""
+}"
+771,395.tif,0,18,43,"{
+  ""chromosomes"": [
+    {
+      ""x"": ""0"",
+      ""y"": ""0""
+    },
+    {
+      ""x"": ""8"",
+      ""y"": ""20""
+    }
+  ]
+}"
+772,398.tif,0,13,36,"[{""chromosomes"": ""19""}]"
+773,399.tif,0,2,12,"{
+""answer"": ""7""
+}"
+774,4.tif,3,1,0,"{
+""chromosomes"": 7
+}"
+775,40.tif,2,0,0,"{
+""chromosomes"": ""3""
+}"
+776,409.tif,0,11,32,"{
+""answer"": ""7""
+}"
+777,41.tif,1,1,0,"{
+  ""count"": 7
+}"
+778,410.tif,0,16,34,"{
+""chiasmomeres"": 7,
+""x-chromosomes"": 22
+}"
+779,411.tif,0,3,24,"{
+""chromosomes"": 14
+}"
+780,413.tif,0,22,38,"{
+  ""count"": 14
+}"
+781,414.tif,0,23,58,"{
+  ""answer"": 8,
+  ""message"": ""The image contains 8 chromosomes.""
+}"
+782,428.tif,0,3,6,"{
+""chromosomes"": 3
+}"
+783,429.tif,0,29,38,"{""chrm_count"": 22}"
+784,430.tif,0,4,12,"{
+""answer"": 7
+}"
+785,432.tif,2,3,2,"{
+    ""chromosomes"": 7
+}"
+786,433.tif,0,24,50,"{""number_of_chromosomes"": ""7""}"
+787,434.tif,1,10,23,"{
+  ""chromosomes"": 14
+}"
+788,435.tif,0,4,6,[3]
+789,437.tif,0,6,4,"{
+  ""chromosomeCount"": 14
+}"
+790,438.tif,0,4,3,"{
+""answer"": ""1""
+}"
+791,439.tif,0,2,2,"{
+""answer"": ""7""
+}"
+792,44.tif,1,0,0,"{
+    ""count"": 7
+}"
+793,440.tif,0,1,10,"{
+""number"": 4
+}"
+794,442.tif,0,3,11,"{
+  ""count"": {
+    ""total"": 3,
+    ""positive"": 1,
+    ""negative"": 2
+  }
+}"
+795,443.tif,0,20,24,"{""value"": ""7""}"
+796,446.tif,0,12,27,"{
+""number_of_chromosomes"": 3
+}"
+797,447.tif,0,31,33,"{
+  ""chromosomes"": 22
+}"
+798,448.tif,0,11,61,"{""chromosomes"": ""22""}"
+799,449.tif,0,19,121,"{
+""chromosomes"": ""4""
+}"
+800,45.tif,1,4,2,"{
+""answer"": ""3""
+}"
+801,450.tif,1,3,60,"{
+""answer"": 7
+}"
+802,451.tif,0,11,21,"{
+    ""answer"": {
+        ""count"": 3,
+        ""type"": """"
+    }
+}"
+803,452.tif,0,11,61,"{
+""answer"": ""7"",
+""reason"": ""The image contains a total of 7 chromosomes.""
+}"
+804,453.tif,0,25,154,"{
+  ""chromosomes"": {
+    ""count"": 3
+  }
+}"
+805,454.tif,0,13,98,"[{""value"": 7}]"
+806,457.tif,0,8,26,"{
+  ""chromosome_count"": 4
+}"
+807,468.tif,0,8,16,"{
+""chrm"": ""7""
+}"
+808,469.tif,0,16,33,"{
+""number"": ""1""
+}"
+809,470.tif,0,2,5,"{
+  ""number"": 14
+}"
+810,472.tif,0,13,37,"{""chromosomes"": 4}"
+811,473.tif,0,34,52,"{
+""answer"": ""3""
+}"
+812,474.tif,0,9,17,"{
+    ""value"": 7
+}"
+813,476.tif,0,3,9,"{
+""chromosomes"": ""7""
+}"
+814,477.tif,0,11,17,"[{""value"": ""7""}]"
+815,478.tif,1,3,3,"{
+  ""chromosomes"": 19
+}"
+816,479.tif,5,0,15,"{""chromosomes"": ""3""}"
+817,485.tif,0,4,20,"[{""value"": 3}]"
+818,486.tif,0,9,17,"{""value"": 22}"
+819,487.tif,0,3,1,"[{""chromosomes"": ""3""}]"
+820,488.tif,0,2,6,"{""chromosome_count"": 22}"
+821,489.tif,0,29,88,"{
+""answer"": ""7""
+}"
+822,49.tif,0,39,2,"{
+  ""value"": 7
+}"
+823,490.tif,0,21,58,"```json
+[7]
+```"
+824,491.tif,0,7,31,"{
+""answer"": ""3""
+}"
+825,492.tif,0,10,14,"{""answer"": ""7""}"
+826,493.tif,0,32,98,"{
+    ""chromosomes"": 3
+}"
+827,494.tif,0,38,88,"{
+  ""value"": ""3""
+}"
+828,495.tif,11,0,5,"{
+""answer"": ""2""
+}"
+829,496.tif,0,6,7,"{
+    ""chromosomes"": 14
+}"
+830,497.tif,0,23,40,"{
+""number"": ""22""
+}"
+831,498.tif,1,1,17,"{
+  ""answer"": 7,
+  ""reasoning"": ""Each chromosome has two arms, so if there are three chromosomes, that means there are six arm segments. Therefore, each arm segment is equivalent to one half of a chromosome.""
+}"
+832,499.tif,1,0,11,"{
+   ""answer"": ""14""
+}"
+833,5.tif,2,9,1,"{
+""chromosomes"": {
+""value"": ""7""
+}
+}"
+834,50.tif,0,34,4,"{
+  ""answer"": {
+    ""count"": 1,
+    ""type"": ""question""
+  }
+}"
+835,500.tif,0,15,15,"{
+""answer"": ""7""
+}"
+836,501.tif,0,20,33,"{
+    ""answer"": 14,
+    ""reasoning"": ""The image shows 7 x 2 = 14 chromosomes.""
+}"
+837,502.tif,0,11,17,"{
+""chromosomes"": ""14""
+}"
+838,504.tif,0,12,17,"{
+""answer"": 22,
+""reason"": ""The image contains 22 chromosomes.""
+}"
+839,505.tif,0,16,25,"{
+  ""chromosomes"": 7
+}"
+840,506.tif,0,8,18,"```json
+{
+  ""answer"": 7
+}
+```"
+841,508.tif,0,1,1,"{
+  ""chromosome_count"": 3,
+  ""message"": ""The image contains 3 chromosomes.""
+}"
+842,509.tif,0,6,12,"```json
+{
+""chromosomes"": 7
+}
+```"
+843,510.tif,0,4,18,"{""number_of_chromosomes"": ""1""}"
+844,513.tif,0,22,46,"{
+  ""chromosome_count"": 14
+}"
+845,514.tif,0,18,57,"```json
+{
+""number"": 7
+}
+```"
+846,515.tif,0,3,22,"{
+ ""chromosomes"": [
+ {
+ ""value"": 14,
+ ""description"": ""X-shaped structures""
+ }
+ ]
+}"
+847,517.tif,0,19,42,"{
+""chromosomes"": 7
+}"
+848,518.tif,0,10,40,"{""answer"": ""7""}"
+849,529.tif,0,19,21,"{
+    ""chromosomes"": [
+        {
+            ""value"": 7,
+            ""count"": 1
+        }
+    ]
+}"
+850,530.tif,0,28,22,"{
+""number"": 3
+}"
+851,533.tif,0,12,20,"[{""value"": ""22""}]"
+852,534.tif,0,20,21,"[{""value"": ""14""}]"
+853,536.tif,0,18,46,"{
+""number"": ""2""
+}"
+854,537.tif,0,16,44,"{
+  ""number"": 7
+}"
+855,538.tif,1,1,5,"{
+  ""answer"": 14,
+  ""description"": ""The image contains 14 chromosomes.""
+}"
+856,54.tif,1,5,0,"{
+""answer"": 22
+}"
+857,541.tif,1,0,0,"{
+""number"": 14,
+""confidence"": 98%
+}"
+858,542.tif,3,0,0,"{
+  ""answer"": 3,
+  ""description"": ""The image contains 3 chromosomes.""
+}"
+859,544.tif,0,5,8,"{""chromosomes"": ""14""}"
+860,545.tif,0,32,76,"{
+""chro"": ""7""
+}"
+861,546.tif,1,8,38,"{
+""answer"": 18,
+""reason"": ""The image contains 3 chromosomes""
+}"
+862,548.tif,2,5,31,"{
+""chromosomeCount"": ""7""
+}"
+863,549.tif,0,38,102,"{
+""chromosomes"": ""4""
+}"
+864,55.tif,2,0,1,"{
+""number"": ""7""
+}"
+865,550.tif,1,15,56,"{
+""chromosomes"": ""7""
+}"
+866,551.tif,1,0,4,[7]
+867,552.tif,6,0,0,"{
+""chromosomes"": ""7""
+}"
+868,553.tif,16,0,15,"{""answer"": ""7""}"
+869,554.tif,1,10,38,"{
+  ""chromosomes"": 3
+}"
+870,555.tif,1,0,2,"{""answer"": ""3""}"
+871,56.tif,1,0,0,"{
+  ""chromosome_count"": 14,
+  ""message"": ""The image contains 14 chromosomes.""
+}"
+872,565.tif,0,8,28,"{
+""answer"": ""3""
+}"
+873,566.tif,0,15,42,"[{""chromosome count"": 22}]"
+874,568.tif,0,2,10,"{
+""answer"": ""22"",
+""reasoning"": ""The image contains 22 chromosomes.""
+}"
+875,569.tif,0,31,95,"{
+  ""chromosomes"": 14
+}"
+876,570.tif,0,31,75,"{
+""count"": 7
+}"
+877,571.tif,0,6,40,"{
+  ""count"": {
+    ""number"": 7,
+    ""type"": ""chiasmata""
+  }
+}"
+878,572.tif,0,6,15,"{
+ ""value"": 18
+}"
+879,573.tif,0,32,80,"{
+  ""chromosomes"": 3
+}"
+880,574.tif,0,22,88,"{
+  ""chromosomes"": 7
+}"
+881,577.tif,0,12,39,"{
+""answer"": ""22""
+}"
+882,578.tif,0,5,78,"{
+  ""chromosome_count"": 14
+}"
+883,58.tif,1,0,0,"{
+  ""chromosomes"": 7,
+  ""message"": ""The image contains 7 chromosomes.""
+}"
+884,589.tif,0,9,103,"{""chrm"": ""7""}"
+885,59.tif,2,20,2,"```json
+{""value"": ""2""}
+```"
+886,590.tif,0,20,145,"{
+""chromosomes"": ""7""
+}"
+887,591.tif,3,2,14,"{
+""chro"": ""14""
+}"
+888,592.tif,1,5,35,"[{""value"": ""14""}]"
+889,593.tif,0,7,82,"{
+""answer"": 8,
+""reasoning"": ""The image contains 3 chromosomes.""
+}"
+890,594.tif,0,29,155,"{
+""number"": 3
+}"
+891,595.tif,1,13,66,"{
+""chromosomes"": 14
+}"
+892,596.tif,0,21,62,"{
+""answer"": ""22""
+}"
+893,598.tif,0,4,61,"{
+   ""count"": 1
+}"
+894,599.tif,0,4,37,"{""value"": 7}"
+895,6.tif,2,0,0,"{
+   ""chromosomes"": 7
+}"
+896,605.tif,0,2,43,"{
+ ""number"": 7
+}"
+897,609.tif,0,25,89,"{
+""count"": ""1""
+}"
+898,610.tif,0,16,58,"{
+""chromosomes"": 14
+}"
+899,611.tif,0,0,2,"{
+  ""count"": 18
+}"
+900,613.tif,0,19,104,"{
+""chromosomes"": 22
+}"
+901,614.tif,3,1,10,"{
+""answer"": ""10""
+}"
+902,615.tif,1,0,10,"{
+  ""answer"": 22,
+  ""description"": ""The image contains 22 chromosomes.""
+}"
+903,617.tif,0,5,36,"{ ""value"": ""4"" }"
+904,618.tif,0,5,30,"{
+  ""number"": 14
+}"
+905,620.tif,1,0,0,"{
+""number"": 7
+}"
+906,621.tif,1,0,0,"```json
+{
+  ""chromosomes"": 14
+}
+```"
+907,622.tif,1,0,0,"{
+""answer"": ""7""
+}"
+908,623.tif,2,0,0,"{""answer"": ""7""}"
+909,624.tif,1,0,0,"{
+  ""number"": 3
+}"
+910,625.tif,1,0,0,[7]
+911,626.tif,1,0,0,"{
+""chromosomes"": 14
+}"
+912,627.tif,1,0,0,"{ ""count"": 7 }"
+913,629.tif,0,33,12,"{
+   ""answer"": {
+      ""value"": 7,
+      ""type"": ""integer""
+   }
+}"
+914,630.tif,0,24,4,"{""value"":14}"
+915,633.tif,0,3,3,"{
+""answer"": ""22""
+}"
+916,634.tif,0,11,8,"[{""value"": ""14""}]"
+917,636.tif,1,0,0,"{
+  ""count"": 8
+}"
+918,637.tif,1,0,0,"{
+  ""answer"": 7,
+  ""description"": ""The image contains 7 chromosomes.""
+}"
+919,638.tif,2,1,2,"{""answer"": ""7""}"
+920,640.tif,2,0,0,[7]
+921,641.tif,4,0,7,"{
+""count"": 7
+}"
+922,642.tif,2,0,0,"{
+""answer"": ""3""
+}"
+923,643.tif,1,1,9,"{
+""chrm"": 14
+}"
+924,644.tif,3,0,0,"{
+  ""answer"": {
+    ""value"": 8,
+    ""type"": ""integer""
+  }
+}"
+925,645.tif,2,0,0,"{""answer"": 14}"
+926,646.tif,2,0,0,"{
+  ""answer"": ""3""
+}"
+927,647.tif,5,0,3,"{
+""number"": ""7""
+}"
+928,648.tif,2,0,0,"{""number of chromosomes"": ""14""}"
+929,649.tif,1,11,7,"{
+""number of chromosomes"": ""7""
+}"
+930,650.tif,0,7,2,"{
+ ""value"": 14
+}"
+931,652.tif,1,22,10,"{
+""answer"": ""3""
+}"
+932,653.tif,0,27,23,"{
+""answer"": ""22""
+}"
+933,654.tif,1,4,0,"{
+  ""value"": 3,
+  ""message"": ""Correct""
+}"
+934,656.tif,1,1,0,"{
+""count"": 7,
+""type"": ""chromosomes""
+}"
+935,657.tif,1,3,0,"{
+    ""answer"": 22,
+    ""explanation"": ""The image contains 22 chromosomes.""
+}"
+936,658.tif,4,0,0,"{
+ ""answer"": ""3""
+}"
+937,659.tif,1,0,0,"{
+  ""value"": ""3""
+}"
+938,660.tif,3,0,0,[22]
+939,661.tif,6,1,0,"{
+  ""count"": 8,
+  ""answer"": {
+    ""value"": 8,
+    ""type"": ""integer""
+  }
+}"
+940,662.tif,2,0,0,"{
+""answer"": ""14""
+}"
+941,663.tif,2,0,0,"{
+  ""chromosomes"": 3
+}"
+942,664.tif,2,0,0,"{""chromosomes"": 7}"
+943,665.tif,2,0,0,"{
+""number"": 22
+}"
+944,666.tif,2,0,0,[7]
+945,667.tif,1,0,0,[7]
+946,668.tif,2,0,0,"{
+""answer"": ""14""
+}"
+947,669.tif,0,20,9,"{
+""answer"": ""3""
+}"
+948,670.tif,1,25,9,"{
+   ""answer"": [
+      1
+   ]
+}"
+949,672.tif,3,0,0,"```json
+{
+  ""value"": 3
+}
+```"
+950,673.tif,2,11,0,"```json
+{
+""number"": 14
+}
+```"
+951,674.tif,0,15,3,"{
+  ""count"": 8
+}"
+952,675.tif,1,0,0,"{
+""answer"": ""22""
+}"
+953,676.tif,7,0,0,"{
+""number"": ""14""
+}"
+954,677.tif,5,0,1,"{
+  ""value"": 3
+}"
+955,678.tif,1,0,0,"{
+    ""count"": 7,
+    ""description"": ""The image contains 7 chromosomes.""
+}"
+956,679.tif,2,1,0,"{
+""answer"": ""7""
+}"
+957,68.tif,0,2,6,"{
+  ""value"": 7
+}"
+958,680.tif,4,0,0,"{
+  ""chromosome_count"": 7
+}"
+959,681.tif,5,0,0,"{
+""answer"": 14,
+""confidence"": 99.99
+}"
+960,682.tif,3,0,0,"[{""value"": ""14""}]"
+961,683.tif,3,2,0,"{""chro_count"": 14}"
+962,684.tif,2,1,0,"{
+  ""chromosomes"": {
+    ""total"": 14,
+    ""image_type"": ""cell image containing 14 chromosomes""
+  }
+}"
+963,685.tif,2,4,1,"{
+  ""value"": 3
+}"
+964,686.tif,4,2,0,[7]
+965,687.tif,3,0,0,[3]
+966,688.tif,3,26,18,"```json
+{
+  ""number"": 22
+}
+```"
+967,689.tif,1,24,20,"{
+""count"": 7
+}"
+968,69.tif,0,8,17,"{
+""number"": ""3""
+}"
+969,690.tif,2,6,0,"{
+""chromosomes"": ""7""
+}"
+970,691.tif,3,0,0,"{
+""ch"": 7,
+""answer"": ""4""
+}"
+971,692.tif,2,0,1,"{""count"": ""14""}"
+972,693.tif,1,1,3,"{
+  ""count"": 7
+}"
+973,694.tif,1,4,3,[7]
+974,695.tif,4,1,1,"{
+  ""answer"": {
+    ""chromosome_count"": 22
+  }
+}"
+975,696.tif,5,0,0,"```json
+{
+  ""answer"": [
+    {
+      ""value"": ""4""
+    }
+  ]
+}
+```"
+976,697.tif,1,0,0,"{
+""count"": 22,
+""message"": ""Image contains 22 chromosomes"",
+""data"": {
+""image"": ""A cell image containing 22 chromosomes""
+}
+}"
+977,699.tif,1,0,0,"{""answer"":7}"
+978,7.tif,2,0,1,"{
+""answer"": 7
+}"
+979,70.tif,0,4,13,"[{""count"": 7}]"
+980,700.tif,2,0,0,"{
+""chromosomes"": 3
+}"
+981,701.tif,1,0,0,"{""number_of_chromosomes"": 7}"
+982,702.tif,3,0,0,"{
+""chromosomes"": 3
+}"
+983,703.tif,2,0,0,"{
+""answer"": ""7""
+}"
+984,704.tif,2,0,0,"{
+""chromosomes"": ""7""
+}"
+985,705.tif,1,0,1,"{
+""chromosomes"": 3
+}"
+986,706.tif,3,0,0,"{
+""chromosomes"": 7
+}"
+987,707.tif,4,1,0,"{""answer"": 22}"
+988,708.tif,1,0,0,"{
+""answer"": ""3""
+}"
+989,709.tif,0,39,65,[3]
+990,710.tif,1,18,25,"{
+ ""chromosomes"": 7,
+ ""description"": ""The image contains 7 chromosomes.""
+}"
+991,711.tif,4,0,0,"{
+""chromosomes"": ""7""
+}"
+992,712.tif,2,0,0,"{
+""chromosomes"": ""14""
+}"
+993,713.tif,1,8,8,"{
+""chromosomes"": {
+""count"": [
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+16,
+17,
+19,
+20,
+21,
+22,
+23,
+24,
+25,
+28,
+30,
+32,
+35,
+38,
+40,
+43,
+45,
+48,
+50,
+52,
+55,
+60,
+63,
+67,
+70,
+73,
+78,
+80,
+83,
+89,
+90,
+93,
+9"
+994,714.tif,1,2,4,"[{""count"": 3}]"
+995,715.tif,3,2,0,"{
+""answer"": ""29""
+}"
+996,716.tif,4,0,0,"{
+  ""number"": 14,
+  ""description"": ""The image contains 14 chromosomes.""
+}"
+997,717.tif,2,0,0,"{
+  ""chromosomeCount"": 7
+}"
+998,718.tif,2,0,1,"{
+""answer"": ""7""
+}"
+999,719.tif,2,0,0,"{
+""answer"": ""3""
+}"
+1000,72.tif,0,7,15,"{
+""number"": ""3""
+}"
+1001,720.tif,2,0,0,"{
+  ""answer"": 7
+}"
+1002,721.tif,1,0,0,"{
+""chiasmomeres"": ""7"",
+""chromosomes"": ""3"",
+""nuclei"": ""1""
+}"
+1003,724.tif,2,1,0,"{
+""chromosomes"": {
+""x shaped structures""
+}
+}"
+1004,725.tif,1,0,0,"{
+ ""answer"": {
+  ""value"": 3,
+  ""description"": ""The image contains 3 chromosomes.""
+ }
+}"
+1005,726.tif,1,0,0,"{
+""answer"": ""3""
+}"
+1006,727.tif,2,0,0,"{
+  ""value"": 7
+}"
+1007,728.tif,2,13,2,"[{""value"": ""14""}]"
+1008,729.tif,0,37,1,"{
+""answer"": ""7""
+}"
+1009,73.tif,0,19,33,"{
+""number"": 14
+}"
+1010,730.tif,2,0,0,"```json
+{
+  ""chromosomes"": {
+    ""value"": 14,
+    ""unit"": ""number""
+  }
+}
+```"
+1011,731.tif,2,2,0,"{ ""chromosomes"": 22 }"
+1012,732.tif,2,3,0,"{
+  ""number"": 3
+}"
+1013,733.tif,1,10,1,[7]
+1014,736.tif,1,0,1,"{""answer"": ""3""}"
+1015,737.tif,1,0,0,[14]
+1016,74.tif,0,11,27,"{
+""chromosomes"": ""4""
+}"
+1017,740.tif,1,0,0,"```json
+[14]
+```"
+1018,741.tif,1,0,0,"{
+""answer"": ""3""
+}"
+1019,742.tif,2,0,0,"{
+""chromosomes"": 7
+}"
+1020,743.tif,4,0,4,"{""count"": ""3""}"
+1021,744.tif,1,0,0,"{""answer"": 3}"
+1022,745.tif,1,1,0,"{
+""answer"": ""7""
+}"
+1023,746.tif,1,6,1,"{
+  ""count"": 3
+}"
+1024,747.tif,2,0,0,"```json
+{
+  ""chromosomes"": {
+    ""number"": 19,
+    ""description"": ""The image contains 19 chromosomes.""
+  }
+}
+```"
+1025,748.tif,1,0,0,"{
+  ""number"": 3
+}"
+1026,749.tif,1,31,9,"{
+  ""number"": 22
+}"
+1027,750.tif,0,13,2,"{""value"": 22}"
+1028,751.tif,1,0,0,"{""answer"": ""14""}"
+1029,753.tif,2,9,3,"{
+""chromosome"": {
+""count"": ""22""
+}"
+1030,754.tif,2,0,0,"{
+  ""count"": 14
+}"
+1031,755.tif,2,0,0,"{
+""answer"": ""4""
+}"
+1032,756.tif,2,0,0,"{
+  ""answer"": 14
+}"
+1033,757.tif,2,0,0,"{
+""answer"": ""3""
+}"
+1034,758.tif,2,0,0,[22]
+1035,759.tif,1,0,0,"{
+  ""chromosomes"": 22
+}"
+1036,76.tif,13,0,9,"{""value"": ""3""}"
+1037,760.tif,2,1,2,"{
+    ""answer"": ""22""
+}"
+1038,761.tif,2,0,0,"{
+""answer"": ""14""
+}"
+1039,762.tif,1,0,0,"{
+""number"": ""10""
+}"
+1040,764.tif,2,0,0,"```json
+{
+  ""chromosomes"": 14,
+  ""answer"": ""14""
+}
+```"
+1041,765.tif,2,0,0,"{
+   ""chromosomes"": 7,
+   ""message"": ""No chromosomes detected.""
+}"
+1042,766.tif,4,2,0,"{
+""answer"": ""22""
+}"
+1043,767.tif,1,0,0,"{ ""value"": 3 }"
+1044,768.tif,2,0,0,"{""number of chromosomes"": 4}"
+1045,769.tif,1,45,14,"{ ""value"": 14 }"
+1046,77.tif,1,9,11,"{
+""answer"": ""7""
+}"
+1047,770.tif,2,9,3,"{
+ ""number"": 3,
+ ""description"": ""The image contains 3 chromosomes.""
+}"
+1048,771.tif,6,0,0,"[{""count"": 14}]"
+1049,773.tif,0,11,11,"```json
+{
+""answer"": ""3""
+}
+```"
+1050,774.tif,1,10,2,"{ ""chromosomes"": 7 }"
+1051,775.tif,2,0,0,"{
+""chromosome_count"": 7
+}"
+1052,777.tif,0,2,0,"{
+""answer"": ""7""
+}"
+1053,779.tif,1,0,0,"{""answer"": ""7""}"
+1054,78.tif,0,3,1,"{
+""answer"": 19,
+""reasoning"": ""The cells with more than two chromosomes are identified as having at least one visible chromosome. Therefore, the total number of visible chromosomes is 19.""
+}"
+1055,780.tif,1,0,1,"[{""value"": ""14"", ""color"": ""#ff9900""}]"
+1056,782.tif,2,3,0,"[{""value"": ""7""}]"
+1057,783.tif,2,1,0,"{
+    ""answer"": 22,
+    ""confidence"": 99
+}"
+1058,784.tif,2,0,0,"{
+  ""number"": 7
+}"
+1059,785.tif,1,3,0,"[{""chromosomes"": ""14""}]"
+1060,786.tif,2,0,0,"```json
+{
+  ""answer"": 7,
+  ""reasoning"": """"
+}
+```
+"
+1061,787.tif,2,2,0,"{""count"": ""1""}"
+1062,788.tif,1,1,0,"{
+""answer"": ""22""
+}"
+1063,789.tif,1,16,0,"```json
+{
+  ""number"": 14
+}
+```"
+1064,790.tif,1,11,0,"{
+   ""count"": 14
+}"
+1065,791.tif,2,2,0,"{
+  ""value"": 3
+}"
+1066,792.tif,0,6,0,"{
+  ""answer"": {
+    ""numerator"": 1,
+    ""denominator"": 10,
+    ""result"": 10
+  }
+}"
+1067,793.tif,1,19,1,"{""value"": ""7""}"
+1068,794.tif,0,10,0,"```json
+{
+  ""number"": 3
+}
+```"
+1069,795.tif,1,0,0,"{
+""answer"": ""28""
+}"
+1070,796.tif,1,0,0,"{
+""answer"": {
+""type"": ""number"",
+""value"": 14
+}
+}"
+1071,8.tif,4,0,2,"{
+  ""chromosomes"": 7
+}"
+1072,800.tif,3,0,0,"{
+""chromosomes"": 14
+}"
+1073,801.tif,1,0,0,[1]
+1074,802.tif,2,0,0,"{
+""count"": ""7""
+}"
+1075,803.tif,1,0,0,"{
+""answer"": ""2""
+}"
+1076,804.tif,2,0,0,"{
+""answer"": ""3""
+}"
+1077,805.tif,1,1,0,"```json
+{
+  ""chromosomes"": 7
+}
+```"
+1078,806.tif,0,2,3,"{
+""answer"": ""3""
+}"
+1079,807.tif,1,0,0,"{
+""answer"": ""22""
+}"
+1080,808.tif,2,0,0,"{
+""answer"": 3,
+""reason"": ""There are 3 chromosomes visible in the image.""
+}"
+1081,809.tif,1,8,16,"{
+""number"": ""7""
+}"
+1082,810.tif,0,9,8,"{
+  ""count"": 18,
+  ""message"": ""success""
+}"
+1083,811.tif,1,0,0,"{
+""chromosomes"": 7
+}"
+1084,812.tif,2,0,0,"{
+""chromosomes"": ""3""
+}"
+1085,813.tif,2,18,24,"{""answer"": ""14""}"
+1086,814.tif,0,12,8,"{
+""chromosomes"": ""7""
+}"
+1087,816.tif,1,0,0,"{
+""chromosomes"": ""3""
+}"
+1088,817.tif,2,0,0,"{
+""chromosomes"": ""14""
+}"
+1089,819.tif,1,0,0,"{
+  ""chromosomes"": 7,
+  ""answer"": ""7""
+}"
+1090,820.tif,3,0,0,"{
+  ""chromosomes"": 7
+}"
+1091,821.tif,1,2,7,"{""chromosomes"": ""4""}"
+1092,822.tif,2,0,0,"{
+""chrm"": ""7""
+}"
+1093,823.tif,2,0,5,"{
+""chromosomes"": 4,
+""X-shaped"": true
+}"
+1094,824.tif,1,0,1,"{
+""number_of_chromosomes"": 3
+}"
+1095,825.tif,1,7,0,[7]
+1096,826.tif,2,2,0,"{""value"": ""8""}"
+1097,827.tif,2,3,2,"```json
+{
+  ""count"": 14
+}
+```"
+1098,828.tif,0,14,12,"{
+    ""chromosomes"": 7
+}"
+1099,829.tif,0,25,0,"{
+""chromosomes"": ""3""
+}"
+1100,830.tif,0,8,1,"{
+""chromosomes"": ""3""
+}"
+1101,831.tif,1,1,1,"{
+  ""number"": 7
+}"
+1102,832.tif,0,2,9,"{
+  ""chromosomes"": 7
+}"
+1103,833.tif,2,10,2,"{""value"": 7}"
+1104,834.tif,1,3,3,"{
+""answer"": 7,
+""reasoning"": ""The cell image contains 7 chromosomes, which can be identified by their characteristic shape of X-shaped structures.""
+}"
+1105,835.tif,2,0,0,"{
+""chrmomones"": ""7""
+}"
+1106,837.tif,0,1,0,"{
+  ""chromosomes"": 7
+}"
+1107,838.tif,1,2,0,"{
+""number"": ""18""
+}"
+1108,839.tif,1,0,0,"```json
+[7]
+```"
+1109,84.tif,0,3,1,[7]
+1110,845.tif,1,0,0,"{
+  ""answer"": 14,
+  ""description"": ""The image contains 14 chromosomes.""
+}"
+1111,849.tif,1,1,0,"{
+""chromosomes"": 7
+}"
+1112,85.tif,0,4,11,"{
+""answer"": ""14""
+}"
+1113,853.tif,3,7,0,"{
+""answer"": ""7""
+}"
+1114,854.tif,1,13,2,"{""chrm"": ""4""}"
+1115,858.tif,1,0,0,"{""number"": 3}"
+1116,86.tif,1,0,2,"{
+""answer"": 14
+}"
+1117,863.tif,1,0,0,"{
+""chromosomes"": 7
+}"
+1118,869.tif,0,13,3,"{""value"": 22}"
+1119,87.tif,1,0,1,"{
+""answer"": ""14""
+}"
+1120,870.tif,0,18,2,"[{""chromosomes"":14}]"
+1121,871.tif,0,5,1,"{""value"": 14}"
+1122,873.tif,0,12,7,"```json
+{
+""answer"": 7,
+""reasoning"": ""The image contains only two different structures: nuclei (represented by circles) and chromosomes (represented by lines). The total number of chromosomes can be found by counting all the lines in the image. There are 8 lines visible, indicating there are 8 chromosomes.""
+}
+```"
+1123,874.tif,0,7,1,"{
+""answer"": ""22""
+}"
+1124,88.tif,0,18,34,"{
+  ""number"": 3
+}"
+1125,883.tif,1,0,0,"{
+  ""value"": 22
+}"
+1126,889.tif,0,9,3,"{
+""answer"": ""3""
+}"
+1127,89.tif,0,24,35,"{
+""answer"": ""7""
+}"
+1128,890.tif,0,4,2,"{
+""answer"": ""14""
+}"
+1129,891.tif,0,1,0,"{""chromosomes"": 2}"
+1130,892.tif,0,4,1,"{
+  ""value"": 14
+}"
+1131,893.tif,0,30,12,"{
+  ""number"": 14
+}"
+1132,894.tif,0,15,2,"{
+""answer"": ""1""
+}"
+1133,895.tif,0,2,1,"{
+""answer"": ""3""
+}"
+1134,9.tif,4,36,2,"{
+""chromosome count"": ""3""
+}"
+1135,90.tif,1,7,16,"{
+""answer"": ""3""
+}"
+1136,901.tif,0,3,0,"[{""chromosomes"": 22}]"
+1137,902.tif,0,3,0,"{
+  ""chromosomes"": [
+    {
+      ""number"": 14,
+      ""type"": ""X-shaped""
+    },
+    {
+      ""number"": 4,
+      ""type"": ""Chromosomes""
+    },
+    {
+      ""number"": 22,
+      ""type"": ""Nuclei""
+    }
+  ]
+}"
+1138,903.tif,1,0,0,"{
+""number"": 14
+}"
+1139,904.tif,0,8,1,"{
+  ""value"": 7
+}"
+1140,905.tif,1,23,1,"{""chromosome_count"": 22}"
+1141,906.tif,1,7,1,"{
+""answer"": ""3""
+}"
+1142,907.tif,2,0,0,"{""chrm_count"":3}"
+1143,909.tif,1,7,0,"{""value"": ""14""}"
+1144,91.tif,1,0,1,"{
+""chromosome"": ""3""
+}"
+1145,910.tif,1,13,0,"{
+""chromosomes"": 2
+}"
+1146,911.tif,1,0,0,"{
+""chromosomes"": 22
+}"
+1147,914.tif,0,5,0,"{
+  ""chromosomes"": 22
+}"
+1148,916.tif,2,4,6,"{
+""chromosomes"": ""3""
+}"
+1149,917.tif,1,1,1,"{
+   ""value"": 7
+}"
+1150,92.tif,0,8,13,"{
+  ""chromosomes"": 7
+}"
+1151,925.tif,0,4,1,"{
+""chromosomes"": ""18""
+}"
+1152,926.tif,0,2,1,"{
+""answer"": ""14""
+}"
+1153,929.tif,0,3,3,"```json
+{
+  ""chromosomes"": 7,
+  ""description"": ""The cell image contains 7 chromosomes.""
+}
+```"
+1154,93.tif,0,12,36,"{""answer"": ""3""}"
+1155,930.tif,0,21,7,"{""value"": 7}"
+1156,933.tif,0,11,3,"{
+""number"": 14
+}"
+1157,934.tif,0,11,2,"{""answer"": ""7""}"
+1158,938.tif,0,3,0,"{
+""answer"": ""7""
+}"
+1159,94.tif,0,5,35,"{
+  ""number_of_chromosomes"": 14,
+  ""answer"": ""The cell image contains 14 chromosomes.""
+}"
+1160,946.tif,0,4,0,"{""chrm_num"": 22}"
+1161,948.tif,2,0,0,"```json
+{
+""answer"": ""22""
+}
+```"
+1162,949.tif,0,8,2,"{
+""answer"": 8,
+""reasoning"": ""The image contains a total of 3 + 22 + 3 = 27 chromosomes.""
+}"
+1163,950.tif,0,4,0,"{
+""chromosomes"": [
+{ ""value"": 4 },
+{ ""value"": 7 },
+{ ""value"": 14 }
+]
+}"
+1164,952.tif,2,0,0,"{
+ ""answer"": ""7""
+}"
+1165,953.tif,0,18,1,"{
+    ""count"": 3,
+    ""message"": """"
+}"
+1166,954.tif,0,15,0,"{
+""answer"": ""22""
+}"
+1167,957.tif,0,5,0,"{
+""number"": 14
+}"
+1168,958.tif,0,5,0,"{
+""answer"": ""4""
+}"
+1169,965.tif,0,2,0,"{
+  ""chromosomes"": 3
+}"
+1170,969.tif,0,20,1,"```json
+[14]
+```"
+1171,970.tif,0,15,2,"{
+""chromosomes"": 7
+}"
+1172,972.tif,1,0,0,"{""value"": 3}"
+1173,973.tif,0,2,0,"{
+ ""chromosomes"": 4
+}"
+1174,974.tif,0,14,0,"{
+  ""count"": 7
+}"
+1175,976.tif,2,0,0,"{""value"": 7}"
+1176,977.tif,0,1,0,"```json
+{
+  ""count"": 7
+}
+```"
+1177,978.tif,0,4,0,"{
+""number"": 3
+}"
+1178,98.tif,1,0,0,"{
+  ""number"": 14
+}"
+1179,985.tif,0,11,1,"{
+""chromosomes"": 14
+}"
+1180,988.tif,0,10,2,"{
+  ""answer"": ""14""
+}"
+1181,989.tif,0,21,5,"{
+  ""answer"": 14
+}"
+1182,99.tif,1,0,4,"{
+""chromosome"": 7
+}"
+1183,990.tif,0,12,3,"{
+  ""answer"": ""7""
+}"
+1184,992.tif,0,6,0,"```json
+{
+  ""answer"": {
+    ""number"": 22,
+    ""description"": ""The image contains 22 chromosomes.""
+  }
+}
+```"
+1185,993.tif,0,18,3,"{
+  ""chromosomes"": 14
+}"
+1186,994.tif,0,26,0,"{
+""answer"": ""7""
+}"
+1187,995.tif,0,17,5,"{
+  ""chromosomes"": 14
+}"
+1188,998.tif,0,3,0,"{
+  ""answer"": ""7""
+}"
