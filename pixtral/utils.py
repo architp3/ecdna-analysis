@@ -11,12 +11,7 @@ from pydantic import BaseModel
 
 class Count(BaseModel):
     count: int
-
-# Load data
-def load_data(filepath):
-    df = pd.read_csv(filepath, header=0, names=['img','ec'])
     
-    df
 
 def generate_random_sample(input_folder, output_folder, sample_size=200):
     """
@@ -42,7 +37,8 @@ def generate_random_sample(input_folder, output_folder, sample_size=200):
     for image in sampled:
         shutil.copy(os.path.join(input_folder, image), os.path.join(output_folder, image))
         
-    return pd.DataFrame(sampled)
+    sampled_df = pd.DataFrame(sampled, columns=['img'])
+    return sampled_df
 
 def read_red_channel(img_path):
     """
