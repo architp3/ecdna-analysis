@@ -18,7 +18,7 @@ For Qwen2-VL Model, install the following additional packages:
 pip install qwen_vl_utils
 ```
 
-For Pixtral Large Model, install the following additional packages:
+For Pixtral-12B Model, install the following additional packages:
 ```
 pip install mistralai
 ```
